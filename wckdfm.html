@@ -2,11 +2,20 @@
 <form id="customForm" class="content">
     <label>Describe Yourself!</label>
     <br>
-    <input type="checkbox" id="senior">Senior</input>
+    <input type="checkbox" id="senior">Senior</input> 
+    <input type="checkbox" id="genx">Gen X</input>
+    <input type="checkbox" id="millenial">Millenial</input>
+    <input type="checkbox" id="genz">Gen Z</input>
     <br>
     <input type="checkbox" id="renter">Renter</input>
+    <input type="checkbox" id="owner">Home Owner</input>
+    <input type="checkbox" id="buyer">Looking to Buy</input>
     <br>
-    <input type="checkbox" id="parent"> Parent</input>
+    <input type="checkbox" id="parent">Parent of Kids</input>
+    <input type="checkbox" id="futureparent">Future Parent</input>
+    <br>
+    <input type="checkbox" id="worker">Worker</input>
+    <input type="checkbox" id="sbo">Small Business Owner</input>
     <br>
      <button type="button" onclick="displayContent()"> How Will Kamala Help Me?</button>
 </form>
@@ -14,19 +23,33 @@
 <div id="result" class="content"></div>
 
 <script>
+    
+    var conditionsDict = {};
+
+    // Add key-value pairs to the dictionary
+    conditionsDict["senior"] = "You're a home owning childless senior. Congrats on all your money!";
+    conditionsDict["renter"] = "You're a childless renter. Perhaps a catlady?";
+    conditionsDict["ownerparent"] = "You're a homeowning parent. Good luck affording all that!";
+    conditionsDict["renterparent"] = "You're a parent paying rent. Good luck affording all that!";
+    
     function displayContent() {
-        const isSenior = document.getElementById('senior').checked;
-        const isRenter = document.getElementById('renter').checked;
-        const isParent = document.getElementById('parent').checked;
+        const ageKey = document.getElementById('senior').checked ? "senior" : 
+            document.getElementById('genx').checked ? "genx" :  
+            document.getElementById('millenial').checked ? "millenial" :  
+            document.getElementById('genx').checked ? "genx" : "";
+        const homeKey = document.getElementById('renter').checked ? "renter" : 
+            document.getElementById('owner').checked ? "owner" :  
+            document.getElementById('buyer').checked ? "buyer" : "";
+        const parentKey = document.getElementById('parent').checked ? "parent" : 
+            document.getElementById('futureparent').checked ? "futureparent" : "";
+        const workKey = document.getElementById('worker').checked ? "worker" : 
+            document.getElementById('sbo').checked ? "sbo" : "";
+        const resultText = conditionsDict[ageKey+homeKey+parentKey+workKey];
         const resultDiv = document.getElementById('result');
 
-        if (isSenior && !isRenter && !isParent) {
-            resultDiv.innerHTML = "<h2>You're a home owning childless senior. Congrats on all your money!</p>";
-        } else if (!isSenior && isRenter && !isParent) {
-            resultDiv.innerHTML = "<h2>You're a childless renter. Perhaps a catlady?</p>";
-        } else if (!isSenior && !isRenter && isParent) {
-            resultDiv.innerHTML = "<h2>You're a homeowning parent. Good luck affording all that!</p>";
-        } else {
+        if (resultText != undefined) {
+            resultDiv.innerHTML = "<h2>" + resultText + "</p>";
+        } else { 
             resultDiv.innerHTML = "<p>Woah, crazy combination here!</p>";
         }
     }
