@@ -1,0 +1,47 @@
+<h1></h1>
+<form id="customForm" class="content">
+    <label>Describe Yourself!</label>
+    <br>
+    <input type="checkbox" id="senior">Senior</input>
+    <br>
+    <input type="checkbox" id="renter">Renter</input>
+    <br>
+    <input type="checkbox" id="parent"> Parent</input>
+    <br>
+     <button type="button" onclick="displayContent()"> How Will Kamala Help Me?</button>
+</form>
+
+<div id="result" class="content"></div>
+
+<script>
+    function displayContent() {
+        const isSenior = document.getElementById('senior').checked;
+        const isRenter = document.getElementById('renter').checked;
+        const isParent = document.getElementById('parent').checked;
+        const resultDiv = document.getElementById('result');
+
+        if (isSenior && !isRenter && !isParent) {
+            resultDiv.innerHTML = "<h2>You're a home owning childless senior. Congrats on all your money!</p>";
+        } else if (!isSenior && isRenter && !isParent) {
+            resultDiv.innerHTML = "<h2>You're a childless renter. Perhaps a catlady?</p>";
+        } else if (!isSenior && !isRenter && isParent) {
+            resultDiv.innerHTML = "<h2>You're a homeowning parent. Good luck affording all that!</p>";
+        } else {
+            resultDiv.innerHTML = "<p>Woah, crazy combination here!</p>";
+        }
+    }
+</script>
+
+<style>
+    #customForm {
+        margin-top: 20px;
+    }
+    .content {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #0000f9;
+        color: #f9f9f9;
+        border: 1px solid #ccc;
+    }
+</style>
+
