@@ -33,18 +33,16 @@
     conditionsDict["renterparent"] = "You're a parent paying rent. Good luck affording all that!";
     
     function displayContent() {
-        const ageKey = document.getElementById('senior').checked ? "senior" : 
-            document.getElementById('genx').checked ? "genx" :  
-            document.getElementById('millenial').checked ? "millenial" :  
-            document.getElementById('genx').checked ? "genx" : "";
-        const homeKey = document.getElementById('renter').checked ? "renter" : 
-            document.getElementById('owner').checked ? "owner" :  
-            document.getElementById('buyer').checked ? "buyer" : "";
-        const parentKey = document.getElementById('parent').checked ? "parent" : 
-            document.getElementById('futureparent').checked ? "futureparent" : "";
-        const workKey = document.getElementById('worker').checked ? "worker" : 
-            document.getElementById('sbo').checked ? "sbo" : "";
-        const resultText = conditionsDict[ageKey+homeKey+parentKey+workKey];
+        var conditionKey = "";
+        ["age", "home", "parent", "work"].forEach((category) => {
+            document.querySelectorAll('input[name="' + category + '"]').forEach(cb => {
+                if (cb.checked) {
+                    conditionKey += cb.id
+                }
+            });
+        });
+        
+        const resultText = conditionsDict[conditionKey];
         const resultDiv = document.getElementById('result');
 
         if (resultText != undefined) {
