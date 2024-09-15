@@ -2,20 +2,20 @@
 <form id="customForm" class="content">
     <label>Describe Yourself!</label>
     <br>
-    <input type="checkbox" id="senior">Senior</input> 
-    <input type="checkbox" id="genx">Gen X</input>
-    <input type="checkbox" id="millenial">Millenial</input>
-    <input type="checkbox" id="genz">Gen Z</input>
+    <input type="checkbox" name="age" id="senior" onclick="makeExclusive(this)">Senior</input> 
+    <input type="checkbox" name="age" id="genx" onclick="makeExclusive(this)">Gen X</input>
+    <input type="checkbox" name="age" id="millenial" onclick="makeExclusive(this)">Millenial</input>
+    <input type="checkbox" name="age" id="genz" onclick="makeExclusive(this)">Gen Z</input>
     <br>
-    <input type="checkbox" id="renter">Renter</input>
-    <input type="checkbox" id="owner">Home Owner</input>
-    <input type="checkbox" id="buyer">Looking to Buy</input>
+    <input type="checkbox" name="home" id="renter" onclick="makeExclusive(this)">Renter</input>
+    <input type="checkbox" name="home" id="owner" onclick="makeExclusive(this)">Home Owner</input>
+    <input type="checkbox" name="home" id="buyer" onclick="makeExclusive(this)">Looking to Buy</input>
     <br>
-    <input type="checkbox" id="parent">Parent of Kids</input>
-    <input type="checkbox" id="futureparent">Future Parent</input>
+    <input type="checkbox" name="parent" id="parent" onclick="makeExclusive(this)">Parent of Kids</input>
+    <input type="checkbox" name="parent" id="futureparent" onclick="makeExclusive(this)">Future Parent</input>
     <br>
-    <input type="checkbox" id="worker">Worker</input>
-    <input type="checkbox" id="sbo">Small Business Owner</input>
+    <input type="checkbox" name="work" id="worker" onclick="makeExclusive(this)">Worker</input>
+    <input type="checkbox" name="work" id="sbo" onclick="makeExclusive(this)">Small Business Owner</input>
     <br>
      <button type="button" onclick="displayContent()"> How Will Kamala Help Me?</button>
 </form>
@@ -53,6 +53,16 @@
             resultDiv.innerHTML = "<p>Woah, crazy combination here!</p>";
         }
     }
+
+    function makeExclusive(checkbox) {
+      const checkboxes = document.querySelectorAll('input[name=' + checkbox.name + ']');
+      checkboxes.forEach(cb => {
+        if (cb !== checkbox) {
+          cb.checked = false;
+        }
+      });
+    }
+    
 </script>
 
 <style>
