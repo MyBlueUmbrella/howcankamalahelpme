@@ -27,10 +27,24 @@
     var conditionsDict = {};
 
     // Add key-value pairs to the dictionary
-    conditionsDict["senior"] = "You're a home owning childless senior. Congrats on all your money!";
-    conditionsDict["renter"] = "You're a childless renter. Perhaps a catlady?";
-    conditionsDict["ownerparent"] = "You're a homeowning parent. Good luck affording all that!";
-    conditionsDict["renterparent"] = "You're a parent paying rent. Good luck affording all that!";
+    conditionsDict["senior"] = {
+        "kamala": 
+        `<ul>
+          <li>Expand high-quality home care services for seniors (source)</li>
+          <li>Fund programs for doctors, nurses, and health care providers to train on geriatric specific issues and care (source)</li>
+          <li>Negotiate lower prices for drugs, inhalers, hearing aids, and other medical needs (sources)</li>
+          <li>Protect and expand Social Security and Medicare</li>
+        </ul> <br>
+        Learn More: https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/03/fact-sheet-biden-harris-administration-delivers-funds-to-support-the-health-of-older-americans/`,
+        "trump": 
+        `<ul>
+          <li> Healthcare Cuts: Trump's administration <b>sought to repeal the Affordable Care Act (ACA)</b>, which provides important protections for seniors, including coverage for pre-existing conditions and preventive services.</li> 
+          <li> Medicare Changes: Proposals to privatize or restructure Medicare could <b>shift more costs onto seniors</b>. Such changes might lead to higher out-of-pocket expenses and reduce the predictability of healthcare costs for elderly individuals.</li>
+          <li> Social Security: Trump's budget proposals have included measures that could undermine Social Security, such as <b>changes to the cost-of-living adjustments</b> or efforts to reduce overall funding.</li>
+        </ul>`};
+    conditionsDict["renter"] = {"kamala": "You're a childless renter. Perhaps a catlady?", "trump":""};
+    conditionsDict["ownerparent"] = {"kamala": "You're a homeowning parent. Good luck affording all that!", "trump":""};
+    conditionsDict["renterparent"] = {"kamala": "You're a parent paying rent. Good luck affording all that!", "trump":""};
     
     function displayContent() {
         var conditionKey = "";
@@ -42,11 +56,12 @@
             });
         });
         
-        const resultText = conditionsDict[conditionKey];
+        const resultContent = conditionsDict[conditionKey];
         const resultDiv = document.getElementById('result');
 
-        if (resultText != undefined) {
-            resultDiv.innerHTML = "<h2>" + resultText + "</p>";
+        if (resultContent != undefined) {
+            resultDiv.innerHTML = "<h2>Kamala Harris will:</h2>" + resultContent.kamala + "<br>" +
+                "<h2>Conversely, Trump:</h2>" + resultContent.trump + "<br>";
         } else { 
             resultDiv.innerHTML = "<p>Woah, crazy combination here!</p>";
         }
