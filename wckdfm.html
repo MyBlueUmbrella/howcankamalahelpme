@@ -27,22 +27,160 @@
     var conditionsDict = {};
 
     // Add key-value pairs to the dictionary
-    conditionsDict["senior"] = {
-        "kamala": 
-        `<ul>
-          <li>Expand high-quality home care services for seniors (source)</li>
-          <li>Fund programs for doctors, nurses, and health care providers to train on geriatric specific issues and care (source)</li>
-          <li>Negotiate lower prices for drugs, inhalers, hearing aids, and other medical needs (sources)</li>
-          <li>Protect and expand Social Security and Medicare</li>
-        </ul> <br>
-        Learn More: https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/03/fact-sheet-biden-harris-administration-delivers-funds-to-support-the-health-of-older-americans/`,
-        "trump": 
-        `<ul>
-          <li> Healthcare Cuts: Trump's administration <b>sought to repeal the Affordable Care Act (ACA)</b>, which provides important protections for seniors, including coverage for pre-existing conditions and preventive services.</li> 
-          <li> Medicare Changes: Proposals to privatize or restructure Medicare could <b>shift more costs onto seniors</b>. Such changes might lead to higher out-of-pocket expenses and reduce the predictability of healthcare costs for elderly individuals.</li>
-          <li> Social Security: Trump's budget proposals have included measures that could undermine Social Security, such as <b>changes to the cost-of-living adjustments</b> or efforts to reduce overall funding.</li>
-        </ul>`};
-    conditionsDict["renter"] = {"kamala": "You're a childless renter. Perhaps a catlady?", "trump":""};
+    conditionsDict["senior"] = {"kamala": `
+<p>Kamala Harris is committed to improving the lives of seniors through several key initiatives:</p>
+<ul>
+<li><b>Protecting Social Security and Medicare:</b> She will work to strengthen these programs to ensure you receive the benefits you earned.</li>
+<li><b>Lowering Prescription Drug Prices:</b> Harris plans to allow Medicare to negotiate drug prices to make medications affordable.</li>
+<li><b>Expanding Access to Care:</b> She supports increasing funding for home-based care services to help seniors age in place.</li>
+<li><b>Addressing Social Isolation:</b> Harris aims to fund programs that connect seniors with community resources and combat loneliness.</li>
+</ul>
+<p>These policies are designed to enhance your quality of life and provide the support you need.</p>
+`, "trump": `
+<p>If Donald Trump were elected president, he would threaten crucial programs and services that seniors rely on. He has previously advocated for cuts to <b>Medicare</b> and <b>Social Security</b>, which could significantly impact your financial security. Additionally, his administration's approach to healthcare could lead to <b>increased costs</b> and reduced access to quality care, putting your health at risk. Furthermore, his policies on <b>income inequality</b> and <b>tax cuts for the wealthy</b> would further strain resources that support key senior programs. In short, Trump's policies would likely make life harder and less secure for seniors across the country.</p>
+`};
+conditionsDict["genx"] = {"kamala": `
+<p>Kamala Harris is committed to improving opportunities for Gen X by focusing on several key areas:</p>
+<ul>
+<li><b>Affordable Healthcare:</b> Advocating for lower prescription drug costs and expanding access to quality healthcare.</li>
+<li><b>Economic Stability:</b> Supporting policies that promote wage growth, job creation, and the protection of retirement savings.</li>
+<li><b>Education and Workforce Development:</b> Investing in accessible education and training programs to ensure skills align with job market demands.</li>
+<li><b>Climate Change Initiatives:</b> Implementing sustainable practices that protect the environment and create new jobs in green technology.</li>
+<li><b>Social Justice:</b> Fighting for equality and reforming systems that perpetuate injustice, improving overall community safety and well-being.</li>
+</ul>
+<p>These initiatives are designed to create a better future for all Americans, including the Gen X community.</p>
+`, "trump": `
+<p>If Donald Trump is elected president, several key policies would likely <b>negatively impact Gen X individuals</b>.</p>
+
+<ul>
+<li><b>Healthcare Costs:</b> His administration has a history of attempting to dismantle the Affordable Care Act, which could lead to <b>higher healthcare costs</b> and loss of coverage for millions.</li>
+<li><b>Social Security Stability:</b> Trump has proposed cuts to social programs, potentially threatening the <b>stability of Social Security</b>, which many Gen Xers count on for retirement.</li>
+<li><b>Climate Change Policies:</b> His disdain for environmental regulations could lead to <b>increased pollution</b> and a lack of action on climate change, affecting future generations.</li>
+<li><b>Economic Inequality:</b> His policies tend to favor the wealthy and corporations, likely widening the <b>wealth gap</b> that already burden Gen X with economic instability.</li>
+</ul>
+
+<p>These actions would collectively erode progress made for working families, impacting your daily life and future.</p>
+`};
+conditionsDict["millenial"] = {"kamala": `
+<p>Kamala Harris is committed to enhancing opportunities for millennials through several key initiatives:</p>
+<ul>
+<li><b>Student Loan Relief:</b> She supports plans for student debt cancellation and reforming the student loan system to make it more accessible and affordable.</li>
+<li><b>Affordable Housing:</b> Kamala is advocating for policies that increase access to affordable housing and combat housing discrimination.</li>
+<li><b>Job Creation:</b> Her focus is on creating jobs in emerging industries and investing in clean energy to ensure good-paying jobs for young people.</li>
+<li><b>Healthcare Access:</b> She believes in expanding access to quality healthcare and supports lowering prescription drug prices.</li>
+<li><b>Student and Worker Protections:</b> Kamala is dedicated to strengthening workers' rights and ensuring fair wages and safe working conditions.</li>
+</ul>
+<p>These policies are designed to create a more equitable and prosperous future for millennials.</p>
+`, "trump": `
+<p>Donald Trump would likely implement policies that disproportionately harm millennials, including:</p>
+<ul>
+<li><b>Tax Cuts Favoring the Wealthy:</b> His tax plans primarily benefit corporations and the ultra-rich, putting a heavier financial burden on middle-class families.</li>
+<li><b>Healthcare Rollbacks:</b> He has repeatedly attempted to dismantle the Affordable Care Act, risking millions of millennials losing essential health coverage.</li>
+<li><b>Job Market Deterioration:</b> His trade wars have already disrupted job growth, threatening industries that employ younger workers.</li>
+<li><b>Climate Change Neglect:</b> His lack of action on climate change endangers the future of our planet, which millennials and future generations will be forced to deal with.</li>
+<li><b>Student Debt Crisis:</b> Trump’s administration has made moves to reduce support for student loan forgiveness programs, leaving many millennials struggling with crippling debt.</li>
+</ul>
+<p>These policies would make it increasingly difficult for millennials to achieve financial security and stability.</p>
+`};
+conditionsDict["genz"] = {"kamala": `
+<p>Kamala Harris is committed to making your life better through several key initiatives. She will:</p>
+<ul>
+<li><b>Expand access to affordable education</b> by supporting policies that reduce student debt and increase funding for public colleges and universities.</li>
+<li><b>Address climate change</b> by investing in clean energy jobs and advocating for sustainable practices that protect the planet for future generations.</li>
+<li><b>Promote equality and justice</b> by fighting for comprehensive reforms in the criminal justice system and advocating for civil rights protections.</li>
+<li><b>Champion health care access</b> to ensure that every individual has coverage, including mental health resources, which are crucial for Gen Z.</li>
+<li><b>Support job creation</b> in emerging industries, particularly those that prioritize innovation and technology.</li>
+</ul>
+<p>Through these efforts, Kamala Harris aims to build a future where young people thrive and their needs are prioritized.</p>
+`, "trump": `
+<p>If Donald Trump is elected president, he could significantly roll back <b>environmental protections</b> that are critical for combating climate change, increasing your risk of facing extreme weather events and health issues associated with pollution. His administration might also seek to <b>undermine reproductive rights</b>, limiting access to essential healthcare services for young women. Additionally, Trump's policies on <b>student debt</b> are geared towards deregulation and privatization, which could make it harder for you to afford higher education or manage existing loans. Furthermore, his stance on <b>immigration</b> can disrupt the lives of young people from immigrant families, creating a climate of fear and uncertainty. These actions could have lasting negative impacts on your future and opportunities.</p>
+`};
+conditionsDict["renter"] = {"kamala": `
+<p>Kamala Harris is committed to ensuring that renters have access to safe and affordable housing. She plans to implement policies such as:</p>
+<ul>
+<li><b>Strengthening rent control</b> measures to protect renters from sudden increases.</li>
+<li><b>Increasing funding</b> for affordable housing development to expand options for low- and middle-income families.</li>
+<li><b>Expanding tenant protections</b> against eviction and discrimination to ensure housing stability.</li>
+<li><b>Creating a national rental assistance program</b> to help families cover costs during difficult times.</li>
+</ul>
+<p>These initiatives will directly address the challenges faced by renters and improve their quality of life.</p>
+`, "trump": `
+<p>If Donald Trump is elected president, his track record indicates he would likely support policies that <b>favor wealthy developers over renters</b>, resulting in <b>higher rent prices</b> and further <b>stripping away tenant protections.</b> His administration has previously backed tax policies that benefit the real estate market but do little for everyday renters. Additionally, his aggressive dismantling of federal housing assistance programs could lead to an increase in homelessness and displacement, making it even harder for you to find affordable housing. In short, his presidency would exacerbate the <b>housing affordability crisis</b> and undermine the security of renters across the country.</p>
+`};
+conditionsDict["owner"] = {"kamala": `
+<p>As President, Kamala Harris would implement policies to improve the stability and affordability of homeownership. This includes:</p>
+<ul>
+<li><b>Expanding Access to Affordable Housing:</b> Increasing funding for affordable housing initiatives and ensuring housing developers include low-income options in new projects.</li>
+<li><b>Reducing Homeownership Costs:</b> Supporting tax credits for homeowners and providing targeted assistance for first-time buyers.</li>
+<li><b>Strengthening Consumer Protections:</b> Enforcing regulations that protect homeowners from predatory lending and unfair foreclosure practices.</li>
+<li><b>Investing in Community Development:</b> Directing resources to revitalize neighborhoods, improving infrastructure, and enhancing public services.</li>
+</ul>
+<p>These policies will help create a more secure and supportive environment for homeowners.</p>
+`, "trump": `
+<p>If Donald Trump is elected president, homeowners can expect significant challenges ahead. His proposed tax cuts would primarily benefit the wealthy and corporations, leading to potential <b>cuts in essential local services</b> that homeowners rely on, like public schools and infrastructure maintenance. Additionally, <b>his policies on climate change </b>could worsen environmental issues, increasing the risk of disasters that directly impact property values and safety. Furthermore, <b>Trump's stance on healthcare</b> could result in rising costs for many families, making it harder to afford home expenses. All of these factors combined could significantly diminish your quality of life as a homeowner.</p>
+`};
+conditionsDict["buyer"] = {"kamala": `
+<p>Kamala Harris is committed to making homeownership more accessible for all Americans. Specifically, she would:</p>
+<ul>
+<li><b>Expand affordable housing initiatives</b> to increase the availability of low- and middle-income housing.</li>
+<li><b>Support first-time homebuyer assistance programs</b> to help you secure a mortgage with lower down payments and interest rates.</li>
+<li><b>Invest in community development</b> to improve neighborhoods and increase property values where potential homeowners are looking to buy.</li>
+<li><b>Advocate for fair lending practices</b> to eliminate discrimination in mortgages and ensure equitable access to financing.</li>
+</ul>
+<p>These measures are designed to make homeownership a reality for more Americans like you.</p>
+`, "trump": `
+<p>Donald Trump’s policies would likely <b>exacerbate the housing crisis</b> that many Americans face. His administration's track record shows a preference for <b>giving tax breaks to the wealthy</b> while neglecting support for first-time home buyers and affordable housing initiatives. Furthermore, his deregulation approach may lead to <b>increased housing market volatility</b> and <b>higher interest rates</b>, making it even harder for you to secure a mortgage. Under Trump, we saw <b>rising unemployment and economic instability</b>, which directly impacts housing affordability. His policies may also favor <b>large corporations over individuals</b>, pushing home ownership further out of reach for everyday Americans.</p>
+`};
+conditionsDict["parent"] = {"kamala": `
+<p>Kamala Harris is committed to improving the lives of parents through several key initiatives. She will <b>expand access to affordable childcare</b>, ensuring that families have the resources they need to balance work and home life. Her plan includes <b>increasing paid family leave</b> to allow parents to take care of their children without financial stress. Additionally, she aims to <b>reduce the cost of college education</b> for families, making higher learning more attainable for everyone. Lastly, Kamala Harris will work to <b>strengthen public schools</b> by increasing funding and resources, ensuring that all children receive a quality education.</p>
+`, "trump": `
+<p>Donald Trump has a history of implementing policies that undermine education and healthcare, both critical for parents. He aims to cut funding for <b>public schools</b>, which would lessen resources for your child’s education. His push for <b>repealing the Affordable Care Act</b> threatens access to essential healthcare services for you and your family, likely increasing costs and reducing coverage. Additionally, his administration's approach to <b>immigration</b> and social policies often exacerbates fear and uncertainty among families, making it more challenging to create a stable environment for your children. In contrast, Kamala Harris prioritizes <b>supporting education</b> and <b>healthcare access</b> for all families.</p>
+`};
+conditionsDict["futureparent"] = {"kamala": `
+<p>Kamala Harris is committed to making life better for families through several key policies: </p>
+<ul>
+<li><b>Expanded Paid Family Leave:</b> She supports policies that provide accessible paid family leave for all parents.</li>
+<li><b>Affordable Childcare:</b> Kamala advocates for universal childcare options that are affordable and high-quality.</li>
+<li><b>Universal Pre-K:</b> She plans to invest in early childhood education, ensuring every child has access to quality pre-K education.</li>
+<li><b>Child Tax Credit Expansion:</b> Her goal includes expanding the Child Tax Credit to provide more financial support for families.</li>
+<li><b>Healthcare Access:</b> Kamala supports policies that ensure all families have access to affordable healthcare, which is crucial for child-rearing.</li>
+</ul>
+<p>These initiatives aim to create a more supportive environment for parents and their children.</p>
+`, "trump": `
+<p>Donald Trump's policies would significantly jeopardize your future as a parent. First, his approach to <b>healthcare</b> threatens access to critical reproductive services, which could complicate family planning. Additionally, his administration's stance on <b>climate change</b> could create an unstable environment for children, as he has consistently rolled back regulations that protect clean air and water. Furthermore, Trump's economic policies would likely widen the <b>income gap</b>, making it more challenging for families to afford childcare and education. His prioritization of tax cuts for the wealthy over support for middle-class families means your financial security would be at risk. In short, Trump’s leadership could undermine your ability to provide a safe and nurturing environment for your future children.</p>
+`};
+conditionsDict["worker"] = {"kamala": `
+<p>Kamala Harris will focus on several key initiatives to improve the lives of workers:</p>
+<ul>
+<li><b>Raising the minimum wage to $15/hour</b> to ensure that hard work is compensated fairly.</li>
+<li><b>Strengthening workers' rights</b> by supporting union formation and collective bargaining.</li>
+<li><b>Expanding access to affordable healthcare</b> to alleviate financial burdens related to medical expenses.</li>
+<li><b>Investing in job training programs</b> to help workers gain new skills for better employment opportunities.</li>
+<li><b>Pushing for paid family leave</b> so workers can care for loved ones without losing their income.</li>
+</ul>
+<p>These actions aim to empower workers and create a more equitable workforce.</p>
+`, "trump": `
+<p>Donald Trump has a track record of policies that harm workers. If elected president, he would likely <b>push for tax cuts that primarily benefit the wealthy and corporations</b>, reducing government revenue for crucial programs that support working families. He has also shown a tendency to <b>roll back labor protections</b> that ensure fair wages and safe working conditions. Furthermore, Trump's approach to <b>trade policies could hurt American jobs</b> and lead to more outsourcing. His administration has previously attempted to undermine <b>healthcare protections</b>, putting workers at risk of losing their access to affordable healthcare. In short, his presidency would prioritize corporate interests over the needs of everyday workers, making your life harder.</p>
+`};
+conditionsDict["sbo"] = {"kamala": `
+<p>Kamala Harris is committed to supporting small businesses through several key initiatives:</p>
+<ul>
+<li><b>Access to Capital:</b> She advocates for increased funding opportunities to ensure small businesses can secure loans and grants.</li>
+<li><b>Tax Relief:</b> Kamala proposes tax incentives specifically aimed at small businesses to help reduce their financial burden.</li>
+<li><b>Employee Support:</b> She emphasizes policies that support workforce development, including training programs to enhance skills and hiring incentives.</li>
+<li><b>Diverse Business Investment:</b> Kamala aims to increase investments in minority-owned and women-owned businesses to promote inclusivity in the business landscape.</li>
+</ul>
+<p>These actions are designed to create a more favorable environment for small business growth and sustainability.</p>
+`, "trump": `
+<p>If Donald Trump is elected president, small business owners like you could face significant setbacks. His administration has historically favored large corporations over small businesses, often leading to <b>tax cuts for the wealthy</b> that don’t benefit everyday entrepreneurs. Additionally, his approach to trade could result in <b>tariffs</b> that increase costs for supplies, directly impacting your bottom line.</p>
+
+<p>Moreover, his deregulation agenda may create a landscape where <b>large corporations</b> can dominate the market, making it harder for small businesses to compete. Trump's inconsistent policies and rhetoric could also lead to <b>economic instability</b>, making it difficult for small businesses to plan for the future.</p>
+
+<p>In contrast, Kamala Harris is committed to supporting small businesses through comprehensive policies that promote <b>equitable access to resources</b> and <b>capital</b>, ensuring you have the support you need to thrive.</p>
+`};
+
+
+
     conditionsDict["ownerparent"] = {"kamala": "You're a homeowning parent. Good luck affording all that!", "trump":""};
     conditionsDict["renterparent"] = {"kamala": "You're a parent paying rent. Good luck affording all that!", "trump":""};
     
