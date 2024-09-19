@@ -3,34 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="wckdfm.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+  <title>How Will Kamala Help Me?</title>
 </head>
-<body>
-<h1></h1>
-<form id="customForm" class="content">
-    <label>Describe Yourself!</label>
-    <br>
-    <input type="checkbox" name="age" id="senior" onclick="makeExclusive(this)">Senior</input> 
-    <input type="checkbox" name="age" id="genx" onclick="makeExclusive(this)">Gen X</input>
-    <input type="checkbox" name="age" id="millenial" onclick="makeExclusive(this)">Millenial</input>
-    <input type="checkbox" name="age" id="genz" onclick="makeExclusive(this)">Gen Z</input>
-    <br>
-    <input type="checkbox" name="home" id="renter" onclick="makeExclusive(this)">Renter</input>
-    <input type="checkbox" name="home" id="owner" onclick="makeExclusive(this)">Home Owner</input>
-    <input type="checkbox" name="home" id="buyer" onclick="makeExclusive(this)">Looking to Buy</input>
-    <br>
-    <input type="checkbox" name="parent" id="parent" onclick="makeExclusive(this)">Parent of Kids</input>
-    <input type="checkbox" name="parent" id="futureparent" onclick="makeExclusive(this)">Future Parent</input>
-    <br>
-    <input type="checkbox" name="work" id="worker" onclick="makeExclusive(this)">Worker</input>
-    <input type="checkbox" name="work" id="sbo" onclick="makeExclusive(this)">Small Business Owner</input>
-    <br>
-     <button type="button" onclick="displayContent()"> How Will Kamala Help Me?</button>
-</form>
+<body class="bg-gray-100 py-10">
+  <div class="max-w-3xl mx-auto">
+  <div class="max-w-full mx-auto bg-white p-6 shadow-lg rounded-lg">
+    <form id="customForm" class="space-y-6">
+      <h2 class="text-2xl font-bold text-gray-700 mb-4">Describe Yourself!</h2>
+      
+      <!-- Age Group Section -->
+      <fieldset class="mb-4">
+        <legend class="text-lg font-medium text-gray-600 mb-2">Age Group</legend>
+        <div class="flex flex-wrap gap-4">
+          <label class="flex items-center">
+            <input type="checkbox" name="age" id="senior" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Senior</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" name="age" id="genx" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Gen X</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" name="age" id="millenial" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Millenial</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" name="age" id="genz" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Gen Z</span>
+          </label>
+        </div>
+      </fieldset>
+      
+      <!-- Home Status Section -->
+      <fieldset class="mb-4">
+        <legend class="text-lg font-medium text-gray-600 mb-2">Living Situation</legend>
+        <div class="flex flex-wrap gap-4">
+          <label class="flex items-center">
+            <input type="checkbox" name="home" id="renter" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Renter</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" name="home" id="owner" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Home Owner</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" name="home" id="buyer" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Looking to Buy</span>
+          </label>
+        </div>
+      </fieldset>
+      
+      <!-- Parental Status Section -->
+      <fieldset class="mb-4">
+        <legend class="text-lg font-medium text-gray-600 mb-2">Family</legend>
+        <div class="flex flex-wrap gap-4">
+          <label class="flex items-center">
+            <input type="checkbox" name="parent" id="parent" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Parent of Kids</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" name="parent" id="futureparent" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Future Parent</span>
+          </label>
+        </div>
+      </fieldset>
+      
+      <!-- Work Status Section -->
+      <fieldset class="mb-4">
+        <legend class="text-lg font-medium text-gray-600 mb-2">Employment</legend>
+        <div class="flex flex-wrap gap-4">
+          <label class="flex items-center">
+            <input type="checkbox" name="work" id="worker" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Worker</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" name="work" id="sbo" class="form-checkbox text-blue-600" onclick="makeExclusive(this)">
+            <span class="ml-2">Small Business Owner</span>
+          </label>
+        </div>
+      </fieldset>
 
-<div id="result" class="content"></div>
+      <!-- Submit Button -->
+      <button type="button" class="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition duration-300" onclick="displayContent()">
+        How Will Kamala Help Me?
+      </button>
+    </form>
+  </div>
+ <br>
+  <div id="result" class="max-full mx-auto bg-white shadow-lg p-6 rounded-lg" style="display: none">  </div>
 
-<script src="wckdfm.js" defer> </script>
+  <script src="wckdfm.js" defer> </script>
 
 </body>
 </html>
