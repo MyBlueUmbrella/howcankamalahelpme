@@ -2,6 +2,7 @@ var conditionsDict = {};
 
 // Add key-value pairs to the dictionary
 conditionsDict["senior"] = {"kamala": `
+<h2 class="text-2xl font-bold mb-6">How Kamala Harris Will Help Seniors</h2>
 <ul class="space-y-6">
             <li class="flex flex-col gap-2">
                 <b class="text-lg font-semibold">Increase Social Security Benefits:</b>
@@ -31,6 +32,7 @@ conditionsDict["senior"] = {"kamala": `
             </li>
         </ul>
 `, "trump": `
+<h2 class="text-2xl font-bold mt-8 mb-6">How Trump Hurts Seniors</h2>
 <ul class="space-y-6">
             <li class="flex flex-col gap-2">
                 <b class="text-lg font-semibold">Proposed Cuts to Social Security:</b>
@@ -53,6 +55,7 @@ conditionsDict["senior"] = {"kamala": `
 `};
 
 conditionsDict["millenial"] = {"kamala": `
+<h2 class="text-2xl font-bold mb-6">How Kamala Harris Will Help Millenials</h2>
 <ul class="space-y-4">
             <li class="text-base">
                 <b class="text-lg font-semibold">Improve Student Loan Relief:</b>
@@ -73,6 +76,7 @@ conditionsDict["millenial"] = {"kamala": `
             </li>
         </ul>
 `, "trump": `
+<h2 class="text-2xl font-bold mt-8 mb-6">How Trump Hurts Millenials</h2>
         <ul class="space-y-4">
             <li class="text-base">
                 <b class="text-lg font-semibold">Impact on Student Loan Relief:</b>
@@ -88,25 +92,64 @@ conditionsDict["millenial"] = {"kamala": `
         </ul>
 `};
 
+conditionsDict["worker"] = {"kamala": `
+<h2 class="text-2xl font-bold mb-6">How Kamala Harris Will Help Blue-Collar Workers</h2>
+        <ul class="space-y-4">
+            <li class="text-base">
+                <b class="text-lg font-semibold">Increase Investment in Infrastructure:</b> 
+                Kamala Harris supports a substantial investment in infrastructure projects, which will create millions of jobs in construction, manufacturing, and related industries. Her plan includes modernizing roads, bridges, and public transit, providing new employment opportunities for blue-collar workers. 
+                <a href="https://kamalaharris.org/issues/infrastructure/" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+            
+            <li class="text-base">
+                <b class="text-lg font-semibold">Support for Labor Unions and Workers' Rights:</b> 
+                Kamala Harris strongly supports labor unions and workers' rights, including efforts to strengthen collective bargaining and protect workers from unfair labor practices. She backs the Protecting the Right to Organize (PRO) Act, which aims to strengthen workers’ rights to organize and negotiate for better working conditions. 
+                <a href="https://kamalaharris.org/issues/labor/" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+            
+            <li class="text-base">
+                <b class="text-lg font-semibold">Expand Job Training and Apprenticeship Programs:</b> 
+                Harris plans to invest in job training and apprenticeship programs to help blue-collar workers gain new skills and advance in their careers. This includes funding for vocational training and partnerships with businesses to provide on-the-job training. 
+                <a href="https://kamalaharris.org/issues/economy/" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+        </ul>
+`, "trump": `
+        <h2 class="text-2xl font-bold mt-8 mb-6">How Trump Hurts Blue-Collar Workers</h2>
+        <ul class="space-y-4">
+            <li class="text-base">
+                <b class="text-lg font-semibold">Rollback of Worker Protections:</b> 
+                The Trump administration rolled back several regulations designed to protect workers, including safety standards and overtime pay rules. These rollbacks weakened protections for blue-collar workers, potentially leading to lower wages and poorer working conditions. 
+                <a href="https://www.nytimes.com/2020/01/07/business/trump-overtime-rule.html" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+            
+            <li class="text-base">
+                <b class="text-lg font-semibold">Failure to Deliver on Infrastructure Promises:</b> 
+                Despite promising a major infrastructure spending program, Trump’s administration did not achieve significant investment in infrastructure projects. This lack of investment meant missed opportunities for blue-collar job creation in construction and related fields. 
+                <a href="https://www.washingtonpost.com/business/2020/09/09/trumps-infrastructure-promise-has-been-stalled/" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+        </ul>
+`};
 
 function displayContent() {
     var conditionKey = "";
+    var resultContent = "";
     ["age", "home", "parent", "work"].forEach((category) => {
         document.querySelectorAll('input[name="' + category + '"]').forEach(cb => {
             if (cb.checked) {
                 conditionKey += cb.id
+                resultContent += conditionsDict[cb.id].kamala + "<br>" + conditionsDict[cb.id].trump + "<br>";
             }
         });
     });
     
-    const resultContent = conditionsDict[conditionKey];
+    // TODO: bring back in for top combo
+    // const resultContent = conditionsDict[conditionKey];
     const resultDiv = document.getElementById('result');
 
-    if (resultContent != undefined) {
-        resultDiv.innerHTML = "<h2 class=\"text-2xl font-bold mb-6\">Kamala Harris will:</h2>" + resultContent.kamala + "<br>" +
-            "<h2 class=\"text-2xl font-bold mt-8 mb-4\">Conversely, Donald Trump will:</h2>" + resultContent.trump + "<br>";
-    } else { 
+    if (resultContent == undefined || resultContent == "") {
         resultDiv.innerHTML = "<p>Woah, crazy combination here!</p>";
+    } else {
+        resultDiv.innerHTML = resultContent;
     }
     resultDiv.style.display = 'block';
     resultDiv.scrollIntoView({ behavior: 'smooth' });
