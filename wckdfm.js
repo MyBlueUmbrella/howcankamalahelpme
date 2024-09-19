@@ -52,6 +52,41 @@ conditionsDict["senior"] = {"kamala": `
         </ul>
 `};
 
+conditionsDict["millenial"] = {"kamala": `
+<ul class="space-y-4">
+            <li class="text-base">
+                <b class="text-lg font-semibold">Improve Student Loan Relief:</b>
+                Kamala Harris will address student loan debt by forgiving or canceling part of the student loan debt and simplifying repayment options. 
+                <a href="https://kamalaharris.org/issues/student-loan-debt/" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+
+            <li class="text-base">
+                <b class="text-lg font-semibold">Expand Access to Affordable Higher Education:</b>
+                Kamala Harris wants to make college more affordable by giving more money for Pell Grants and offering free community college. This will help reduce future student debt and make college more accessible. 
+                <a href="https://kamalaharris.org/issues/education/" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+
+            <li class="text-base">
+                <b class="text-lg font-semibold">Support for Affordable Housing:</b>
+                Kamala Harris wants to invest more in affordable housing and rental help to assist people dealing with high housing costs. Her plan includes building more homes, expanding rental assistance, and helping people with down payments for buying a house. 
+                <a href="https://kamalaharris.org/issues/housing/" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+        </ul>
+`, "trump": `
+        <ul class="space-y-4">
+            <li class="text-base">
+                <b class="text-lg font-semibold">Impact on Student Loan Relief:</b>
+                Trump's administration rolled back some student loan relief measures, including limiting the expansion of income-driven repayment plans and reducing loan forgiveness options. These changes left many Millennials burdened with significant student debt. 
+                <a href="https://www.nbcnews.com/news/us-news/trump-education-secretary-develops-new-student-loan-rules-rcna3288" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+
+            <li class="text-base">
+                <b class="text-lg font-semibold">Affordable Housing Crisis:</b>
+                Trump's policies included cuts to HUD funding and opposition to new affordable housing initiatives. These actions contributed to rising housing costs and made it more difficult for Millennials, who are often first-time homebuyers or renters, to find affordable housing. 
+                <a href="https://www.washingtonpost.com/business/2020/09/22/affordable-housing-trump/" class="text-blue-500 hover:underline">[🔗]</a>
+            </li>
+        </ul>
+`};
 
 
 function displayContent() {
@@ -74,6 +109,7 @@ function displayContent() {
         resultDiv.innerHTML = "<p>Woah, crazy combination here!</p>";
     }
     resultDiv.style.display = 'block';
+    resultDiv.scrollIntoView({ behavior: 'smooth' });
 }
 
 function makeExclusive(checkbox) {
