@@ -2,17 +2,54 @@ var conditionsDict = {};
 
 // Add key-value pairs to the dictionary
 conditionsDict["senior"] = {"kamala": `
-<p>Kamala Harris is committed to improving the lives of seniors through several key initiatives:</p>
-<ul>
-<li><b>Strengthening Social Security:</b> Protecting and expanding Social Security benefits to ensure a secure retirement.</li>
-<li><b>Lowering Prescription Drug Costs:</b> Implementing measures to reduce the cost of medications, making healthcare more affordable for seniors.</li>
-<li><b>Improving Access to Healthcare:</b> Expanding Medicare and safeguarding it against cuts to help seniors receive the care they need.</li>
-<li><b>Enhancing Support for Caregivers:</b> Providing resources and assistance to family caregivers to help them care for their loved ones.</li>
-<li><b>Expanding Housing Options:</b> Ensuring affordable and accessible housing for seniors to live independently.</li>
-</ul>
-<p>These initiatives reflect her commitment to ensuring that seniors can live with dignity and security.</p>
+<ul class="space-y-6">
+            <li class="flex flex-col gap-2">
+                <b class="text-lg font-semibold">Increase Social Security Benefits:</b>
+                <p class="text-base">
+                    Kamala Harris wants to boost Social Security benefits to help seniors feel more financially secure. 
+                    This means raising the benefits and adjusting them for inflation so they keep up with the rising cost of living.
+                    <a href="https://kamalaharris.org/issues/social-security/" class="text-blue-500 hover:underline">[🔗]</a>
+                </p>
+            </li>
+
+            <li class="flex flex-col gap-2">
+                <b class="text-lg font-semibold">Expand Home and Community-Based Care:</b>
+                <p class="text-base">
+                    Kamala Harris plans to put more money into home and community care services, so seniors can get help at home instead of in a facility.
+                    This includes more funding for caregiving programs and support services.
+                    <a href="https://www.harris.senate.gov/about/policies" class="text-blue-500 hover:underline">[🔗]</a>
+                </p>
+            </li>
+
+            <li class="flex flex-col gap-2">
+                <b class="text-lg font-semibold">Better Medical Care for Seniors:</b>
+                <p class="text-base">
+                    Kamala Harris wants to fund programs for doctors, nurses, and health care providers to train on geriatric-specific issues and care,
+                    so that you have the best medical care possible.
+                    <a href="https://www.hhs.gov/about/news/2024/07/01/biden-harris-administration-invests-over-200-million-help-primary-care-doctors-nurses-other-health-care-providers-improve-care-older-adults.html" class="text-blue-500 hover:underline">[🔗]</a>
+                </p>
+            </li>
+        </ul>
 `, "trump": `
-<p>Donald Trump has a track record of implementing policies that directly harm seniors. If re-elected, <b>he would likely attempt to cut Medicare and Social Security benefits</b>, jeopardizing your health care and financial security. His administration's efforts to repeal the Affordable Care Act would <b>threaten access to critical health services</b>, including protections for pre-existing conditions that disproportionately affect seniors. Additionally, his tax cuts primarily benefited the wealthy while <b>adding to the national deficit</b>, putting future funding for essential programs at risk. These are just a few examples of how <b>Trump's policies and priorities would make life worse for seniors.</b></p>
+<ul class="space-y-6">
+            <li class="flex flex-col gap-2">
+                <b class="text-lg font-semibold">Proposed Cuts to Social Security:</b>
+                <p class="text-base text-gray-700">
+                    Donald Trump has supported proposals to cut Social Security benefits and has suggested reducing the program’s funding. 
+                    Critics argue that these cuts would undermine financial security for seniors who rely on Social Security for their retirement income.
+                    <a href="https://www.cnbc.com/2020/09/01/trump-signaled-he-would-cut-social-security.html" class="text-blue-500 hover:underline">[🔗]</a>
+                </p>
+            </li>
+            
+            <li class="flex flex-col gap-2">
+                <b class="text-lg font-semibold">Failure to Address Prescription Drug Costs:</b>
+                <p class="text-base text-gray-700">
+                    Despite promises to lower prescription drug prices, Trump's administration did not advance significant measures to reduce costs for seniors. 
+                    The lack of comprehensive action on this issue left many seniors facing high out-of-pocket expenses for their medications.
+                    <a href="https://www.politico.com/news/2020/06/04/trump-prescription-drug-prices-295044" class="text-blue-500 hover:underline">[🔗]</a>
+                </p>
+            </li>
+        </ul>
 `};
 
 
@@ -31,8 +68,8 @@ function displayContent() {
     const resultDiv = document.getElementById('result');
 
     if (resultContent != undefined) {
-        resultDiv.innerHTML = "<h2>Kamala Harris will:</h2>" + resultContent.kamala + "<br>" +
-            "<h2>Conversely, Trump:</h2>" + resultContent.trump + "<br>";
+        resultDiv.innerHTML = "<h2 class=\"text-2xl font-bold mb-6\">Kamala Harris will:</h2>" + resultContent.kamala + "<br>" +
+            "<h2 class=\"text-2xl font-bold mt-8 mb-4\">Conversely, Donald Trump will:</h2>" + resultContent.trump + "<br>";
     } else { 
         resultDiv.innerHTML = "<p>Woah, crazy combination here!</p>";
     }
