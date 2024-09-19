@@ -36,6 +36,7 @@ function displayContent() {
     } else { 
         resultDiv.innerHTML = "<p>Woah, crazy combination here!</p>";
     }
+    resultDiv.style.display = 'block';
 }
 
 function makeExclusive(checkbox) {
