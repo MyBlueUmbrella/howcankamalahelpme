@@ -219,13 +219,16 @@ function displayContent() {
     var conditionKey = "";
     var resultContent = "";
     ["age", "home", "parent", "work"].forEach((category) => {
-        document.querySelectorAll('input[name="' + category + '"]').forEach(cb => {
-            if (cb.checked) {
-                conditionKey += cb.id
-                resultContent += conditionsDict[cb.id].kamala + "<br>" + conditionsDict[cb.id].trump + "<br>";
-            }
-        });
+		const contentId = document.getElementById(category).value;
+		if (contentId != "") {
+                	conditionKey += contentId;
+                	resultContent += conditionsDict[contentId].kamala + "<br>" + conditionsDict[contentId].trump + "<br>";
+		}
     });
+
+    if (resultContent == "") {
+      resultContent = "<h2 class='text-2xl mb-4'>Please select at least one option above.</h2>";
+    }
     
     // TODO: bring back in for top combo
     // const resultContent = conditionsDict[conditionKey];
@@ -243,3 +246,19 @@ function makeExclusive(checkbox) {
     }
   });
 }
+
+
+    // Function to manage exclusive selection behavior
+    function selectOption(button, category, value) {
+         // Reset previously selected buttons in the category
+        const buttons = document.querySelectorAll(`[data-category="${category}"]`);
+        buttons.forEach(btn => {
+            btn.style.backgroundColor = '#e1dfd5';  // Reset background color
+        });
+
+        // Set the selected button's appearance
+        button.style.backgroundColor = '#b4c7ed';  // Selected background color
+ 	
+	// Save selected value in the hidden input
+        document.getElementById(category).value = value;
+    }
