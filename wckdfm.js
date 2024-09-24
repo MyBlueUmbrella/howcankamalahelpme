@@ -262,3 +262,28 @@ function makeExclusive(checkbox) {
 	// Save selected value in the hidden input
         document.getElementById(category).value = value;
     }
+
+function actOnURLParameters() {
+            const params = new URLSearchParams(window.location.search);
+	    var anyUrlParams = false;
+            for (const [key, value] of params) {
+		switch(key) {
+			case "age":
+			case "home":
+			case "parent":
+			case "work": 
+				var button = document.getElementById(value);
+				if (button != undefined) {
+					selectOption(button, key, value);
+					anyUrlParams = true;
+				}
+		}
+            }
+	    if (anyUrlParams) {
+		displayContent();
+	    }
+}
+
+// Act on any URL parameters
+actOnURLParameters();
+
