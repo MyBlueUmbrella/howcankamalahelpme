@@ -16,11 +16,11 @@
         <fieldset class="mb-6">
             <legend class="text-lg font-medium text-gray-800 mb-2">How old are you?</legend>
             <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="age" onclick="selectOption(this, 'age', 'genz')">Gen Z</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="age" onclick="selectOption(this, 'age', 'millennial')">Millennial</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="age" onclick="selectOption(this, 'age', 'genx')">Gen X</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="age" onclick="selectOption(this, 'age', 'senior')">Senior</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #b4c7ed;" data-category="age" onclick="selectOption(this, 'age', '')">Prefer Not To Say</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="age" id="genz" onclick="selectOption(this, this.dataset.category, this.id)">Gen Z</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="age" id="millennial" onclick="selectOption(this, this.dataset.category, this.id)">Millennial</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="age" id="genx" onclick="selectOption(this, this.dataset.category, this.id)">Gen X</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="age" id="senior" onclick="selectOption(this, this.dataset.category, this.id)">Senior</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #b4c7ed;" data-category="age" id="noage" onclick="selectOption(this, this.dataset.category, '')">Prefer Not To Say</button>
             </div>
             <input type="hidden" id="age" name="age" value="">
         </fieldset>
@@ -29,10 +29,10 @@
         <fieldset class="mb-6">
             <legend class="text-lg font-medium text-gray-800 mb-2">What's your home status?</legend>
             <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="home" onclick="selectOption(this, 'home', 'renter')">I rent my home</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="home" onclick="selectOption(this, 'home', 'owner')">I own my home</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="home" onclick="selectOption(this, 'home', 'buyer')">Looking to buy</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #b4c7ed;" data-category="home" onclick="selectOption(this, 'home', '')">Prefer Not To Say</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="home" id="renter" onclick="selectOption(this, this.dataset.category, this.id)">I rent my home</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="home" id="owner" onclick="selectOption(this, this.dataset.category, this.id)">I own my home</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="home" id="buyer" onclick="selectOption(this, this.dataset.category, this.id)">Looking to buy</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #b4c7ed;" data-category="home" id="nohome" onclick="selectOption(this, this.dataset.category, '')">Prefer Not To Say</button>
             </div>
             <input type="hidden" id="home" name="home" value="">
         </fieldset>
@@ -41,10 +41,10 @@
         <fieldset class="mb-6">
             <legend class="text-lg font-medium text-gray-800 mb-2">What's your family situation?</legend>
             <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="parent" onclick="selectOption(this, 'parent', 'parent')">Parent of Kids</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="parent" onclick="selectOption(this, 'parent', 'futureparent')">Future Parent</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="parent" onclick="selectOption(this, 'parent', 'nokids')">No Kids</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #b4c7ed;" data-category="parent" onclick="selectOption(this, 'parent', '')">Prefer Not to Say</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="parent" id="parent" onclick="selectOption(this, this.dataset.category, this.id)">Parent of Kids</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="parent" id="futureparent" onclick="selectOption(this, this.dataset.category, this.id)">Future Parent</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="parent" id="nokids" onclick="selectOption(this, this.dataset.category, this.id)">No Kids</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #b4c7ed;" data-category="parent" id="noparent" onclick="selectOption(this, this.dataset.category, '')">Prefer Not to Say</button>
             </div>
             <input type="hidden" id="parent" name="parent" value="">
         </fieldset>
@@ -53,9 +53,9 @@
         <fieldset class="mb-6">
             <legend class="text-lg font-medium text-gray-800 mb-2">What's your work situation?</legend>
             <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="work" onclick="selectOption(this, 'work', 'worker')">Blue Collar Worker</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="work" onclick="selectOption(this, 'work', 'sbo')">Small Business Owner</button>
-                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #b4c7ed;" data-category="work" onclick="selectOption(this, 'work', '')">Prefer Not to Say</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="work" id="worker" onclick="selectOption(this, this.dataset.category, this.id)">Blue Collar Worker</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #e1dfd5;" data-category="work" id="sbo" onclick="selectOption(this, this.dataset.category, this.id)">Small Business Owner</button>
+                <button type="button" class="p-2 rounded-full focus:outline-none text-md font-medium" style="background-color: #b4c7ed;" data-category="work" id="nowork" onclick="selectOption(this, this.dataset.category, '')">Prefer Not to Say</button>
             </div>
             <input type="hidden" id="work" name="work" value="">
         </fieldset>
