@@ -2,211 +2,217 @@ var conditionsDict = {};
 
 // Add key-value pairs to the dictionary
 conditionsDict["senior"] = {"kamala": `
-<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Stand Up for You, the Seniors</h2>
+<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help Seniors</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Boosting Your Social Security Benefits:</b> Kamala Harris is committed to increasing Social Security benefits because you deserve financial stability in your golden years. The current system isn’t cutting it, and she knows it. Your benefits will rise to meet the cost of living—because your hard work should pay off even when you retire. You shouldn’t have to worry about making ends meet. <a href="https://kamalaharris.org/issues/social-security/">🔗</a></li>
+<li class='text-lg'><b>Increase Social Security Benefits:</b> Kamala Harris is committed to making sure you have the financial security you deserve as you age. By raising Social Security benefits and adjusting them for inflation, she aims to ensure that your financial situation won’t deteriorate with the surging cost of living. You shouldn't have to struggle to make ends meet in your golden years. <a href="https://www.newsnationnow.com/politics/2024-election/kamala-harris-social-security-views/">🔗</a></li>
 
-<li class='text-lg'><b>Expanding Home and Community-Based Care:</b> You deserve to stay in your home, surrounded by the memories and comfort you’ve built. Harris will invest more into home and community care services, ensuring you have access to the support you need right where you are. You will get the care without being uprooted, allowing you to maintain your independence and quality of life. <a href="https://www.harris.senate.gov/about/policies">🔗</a></li>
+<li class='text-lg'><b>Expand Home and Community-Based Care:</b> You deserve to receive care in your own home, where you feel comfortable. Kamala Harris will invest in home and community care services so you can have the support you need without being forced into a facility. This means more funding for caregivers and essential services to assist you in your daily life. <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2024/04/22/fact-sheet-vice-president-harris-announces-historic-advancements-in-long-term-care-to-support-the-care-economy/">🔗</a></li>
 
-<li class='text-lg'><b>Ensuring Exceptional Medical Care:</b> It’s time for health care providers to understand your unique health care needs. Kamala Harris plans to fund specialized training for doctors and nurses on geriatric care, so when you walk into a clinic, you’re treated with the respect and expertise you deserve. Your well-being is non-negotiable. <a href="https://www.hhs.gov/about/news/2024/07/01/biden-harris-administration-invests-over-200-million-help-primary-care-doctors-nurses-other-health-care-providers-improve-care-older-adults.html">🔗</a></li>
+<li class='text-lg'><b>Better Medical Care for Seniors:</b> You have a right to exceptional medical care that understands your unique needs. Kamala Harris plans to fund training programs for healthcare professionals focused on geriatric care, ensuring that you receive the highest quality medical attention tailored specifically for you as you age. Your well-being is not just a priority; it’s a necessity. <a href="https://www.hhs.gov/about/news/2024/07/01/biden-harris-administration-invests-over-200-million-help-primary-care-doctors-nurses-other-health-care-providers-improve-care-older-adults.html">🔗</a></li>
 </ul>`, "trump": `
-<h2 class='text-2xl font-bold mb-4'>How Donald Trump Will Hurt Seniors</h2>
+<h2 class='text-2xl font-bold mb-4'>How Donald Trump Will Hurt You as a Senior</h2>
 <ul class='list-disc pl-5 space-y-3'>
 <li class='text-lg'>
-<b>Proposed Cuts to Social Security:</b> Donald Trump is pushing for budget cuts that would undermine your Social Security benefits—your lifeline for income. If he succeeds, imagine the financial strain you could face, scrambling to cover the essentials like food and healthcare. This isn’t just a political game; it’s a direct threat to your stability and well-being. <a href="https://www.vox.com/policy-and-politics/2019/3/12/18260271/trump-medicaid-social-security-medicare-budget-cuts" target="_blank">🔗</a>
+<b>Proposed Cuts to Social Security:</b> Donald Trump is pushing for budget cuts that threaten your <b>Social Security benefits</b>. These cuts could shatter the financial security many older adults rely on, leaving you struggling to afford the basic necessities like food and healthcare. <a href="https://www.cbpp.org/blog/presidents-budget-would-hurt-people-with-disabilities-1">🔗</a>
 </li>
 <li class='text-lg'>
-<b>Medicare Funding Cuts:</b> Trump's agenda threatens to slash Medicare funding. He’s already proposed cutting it by $575 billion, a move that would be catastrophic for you. This isn’t a one-time threat; his willingness to cut entitlement programs shows he sees your healthcare as expendable. Such measures would leave you vulnerable and struggling in your later years. <a href="https://www.vox.com/policy-and-politics/2019/3/12/18260271/trump-medicaid-social-security-medicare-budget-cuts" target="_blank">🔗</a>
+<b>Medicare Funding Cuts:</b> Trump's agenda includes aggressive cuts to Medicare. In 2020, he proposed slashing Medicare by $575 billion, a devastating blow that the Federation of American Hospitals warned would wreak havoc on senior care. His recent campaign trail has shown no hesitation in his willingness to cut these critical entitlement programs again. <a href="https://www.vox.com/policy-and-politics/2019/3/12/18260271/trump-medicaid-social-security-medicare-budget-cuts">🔗</a>
 </li>
 </ul>`};
 conditionsDict["millennial"] = {"kamala": `
 <h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help Millennials</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Improve Student Loan Relief:</b> You’re drowning in student loan debt, and Kamala knows it’s a huge burden on your life. She’s not just talking about it—she’s ready to take real action to forgive a portion of your loans and create simpler repayment options. Imagine a future where you can breathe easy without that financial albatross hanging around your neck. <a href="https://kamalaharris.org/issues/student-loan-debt/">🔗</a></li>
+<li class='text-lg'><b>Improve Student Loan Relief:</b> Kamala Harris is committed to lifting the weight of student loan debt off your shoulders. She’ll fight to forgive or cancel a significant portion of the debt you carry and simplify repayment options. You shouldn’t be trapped by a decision you made to invest in your future—she understands that and will take action. <a href="https://www.newsweek.com/what-kamala-harris-has-said-about-forgiving-student-medical-debt-1940561">🔗</a></li>
 
-<li class='text-lg'><b>Expand Access to Affordable Higher Education:</b> You deserve a fair shot at education without being crushed by debt. Kamala is committed to making college affordable through increased Pell Grants and free community college options. This isn’t just policy; it’s about creating pathways for you to pursue your dreams without the weight of financial insecurity holding you back. <a href="https://kamalaharris.org/issues/education/">🔗</a></li>
+<li class='text-lg'><b>Expand Access to Affordable Higher Education:</b> The cost of college should never be a barrier for you. Kamala Harris will prioritize making education accessible by boosting Pell Grants and providing free community college. This isn't just about numbers—it's about your dreams and potential. We need to ensure every young person can pursue their passions without the crippling shadow of debt. <a href="https://www.forbes.com/advisor/student-loans/student-loans-forgiveness-under-harris-walz/">🔗</a></li>
 
-<li class='text-lg'><b>Support for Affordable Housing:</b> If you’re struggling to find a place to call home in this crazy market, Kamala is here to change that. She’s investing in affordable housing and expanding rental assistance to help you manage those soaring costs. Whether it’s building new homes or helping with your down payment, she’s ready to empower you to secure your own space in this world. You shouldn’t have to choose between your financial stability and a roof over your head. <a href="https://kamalaharris.org/issues/housing/">🔗</a></li>
+<li class='text-lg'><b>Support for Affordable Housing:</b> You deserve a place you can call home without drowning in rent or mortgage payments. Kamala Harris is dedicated to investing in affordable housing solutions that make living in your community feasible. Her plan means more homes will be built, rental assistance will be expanded, and down payment help will be provided. You should have stability in your life, not stress over where to live. <a href="https://nlihc.org/resource/harris-campaign-releases-plans-lower-housing-costs">🔗</a></li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Trump Will Hurt Millennials</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Impact on Student Loan Relief:</b> Under Trump, you experienced the rollback of essential student loan relief measures. The restrictions on income-driven repayment plans and the reduction of loan forgiveness options left you trapped under a mountain of debt. If he gets back into power, expect even more obstacles and less support as you fight to reclaim your financial future.</li>
+<li class='text-lg'><b>Impact on Student Loan Relief:</b> Under Trump, your chances for meaningful student loan relief are diminished. His administration rolled back crucial measures that could help you manage your student debt. With limited options for income-driven repayment and loan forgiveness, you’re left carrying a crushing burden that will only get heavier. <a href="https://www.nbcnews.com/news/us-news/trump-education-secretary-develops-new-student-loan-rules-rcna3288">🔗</a></li>
 
-<li class='text-lg'><b>Affordable Housing Crisis:</b> Trump's cuts to HUD funding and his opposition to affordable housing initiatives have already wreaked havoc on your ability to find housing. As he continues to prioritize the wealthy, you will face skyrocketing housing costs, making it almost impossible to secure a home or find an affordable place to live. The future under his administration promises even greater challenges, pushing the dream of homeownership further out of reach.</li>
+<li class='text-lg'><b>Affordable Housing Crisis:</b> Trump’s policies have decimated your chances of finding affordable housing. By cutting HUD funding and actively opposing new initiatives, he has driven housing costs through the roof. As you struggle to navigate a market that’s increasingly out of reach, the dream of owning a home or even renting one becomes a distant fantasy. <a href="https://nlihc.org/resource/president-trump-proposes-drastic-cuts-affordable-housing-programs">🔗</a></li>
 </ul>`};
 conditionsDict["genz"] = {"kamala": `
 <h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help Gen Z</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Expand Access to Affordable Higher Education:</b> Kamala Harris is fiercely committed to making college affordable for you. With her plan to increase Pell Grants and provide free community college, she’s not just talking about reducing student debt; she’s talking about giving you the real opportunity you deserve. You shouldn’t have to worry about crippling loans when you’re trying to build your future. <a href="https://kamalaharris.org/issues/education/">🔗</a></li>
-<li class='text-lg'><b>Address Climate Change and Create Green Jobs:</b> Your future depends on decisive action against climate change, and Kamala gets that. She will invest aggressively in clean energy and sustainable infrastructure. This isn’t just policy; it's about ensuring you have a livable planet and the job opportunities that come with a green economy. Imagine being part of a workforce that’s dedicated to preserving your world. <a href="https://kamalaharris.org/issues/climate-change/">🔗</a></li>
-<li class='text-lg'><b>Expand Mental Health Services:</b> Mental health is critical, and Kamala knows you’re facing challenges that previous generations didn’t have to deal with. Her commitment to boosting mental health services means you’ll have better access to the support you need, right in schools and communities. You should never feel alone in your struggles—she's ensuring help is within reach. <a href="https://kamalaharris.org/issues/mental-health/">🔗</a></li>
+<li class='text-lg'><b>Expand Access to Affordable Higher Education:</b> Kamala Harris is on your side, ready to tackle the crushing weight of student debt that so many of you face. She is committed to increasing Pell Grants and making community college free. This means you can pursue your dreams without drowning in debt. You deserve the opportunity to thrive, not just survive. <a href="https://www.forbes.com/advisor/student-loans/student-loans-forgiveness-under-harris-walz/">🔗</a></li>
+<li class='text-lg'><b>Address Climate Change and Create Green Jobs:</b> Your future depends on a livable planet. Kamala will take bold action against climate change, investing in clean energy projects that create green jobs just for you. These initiatives will not only provide employment but also ensure a healthier environment for you and generations to come. Stand up for your home, and know Kamala is in your corner. <a href="https://adams.house.gov/media-center/press-releases/vp-harris-announces-enormous-20b-clean-energy-investment-rep-adams">🔗</a></li>
+<li class='text-lg'><b>Expand Mental Health Services:</b> Mental health matters, and Kamala gets that. She’s pushing for more funding for mental health services, ensuring that you can access care when you need it, especially in schools and your communities. You shouldn’t have to struggle alone; help must be available where you are. Kamala’s commitment to your well-being can make that a reality. <a href="https://www.presidency.ucsb.edu/documents/press-release-vice-president-harris-announces-285-million-increase-mental-health">🔗</a></li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Trump Will Hurt Gen Z</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Increased Student Loan Debt:</b> Under Trump, you saw reforms to student loan debt vanish. His presidency ignored the crushing burden of educational debt, leaving you to drown in a system that offered no relief or support. His policies will only continue to let you struggle under the weight of skyrocketing student loans, making your dreams feel completely out of reach.</li>
-<li class='text-lg'><b>Rollback of Environmental Protections:</b> Trump’s administration not only turned a blind eye to climate change but actively rolled back critical environmental protections. Because of him, you will inherit a planet facing catastrophe, and the consequences of his negligence will thrust you into a world of increased instability and crisis. Your future will be jeopardized as he prioritizes corporate interests over the health of the Earth.</li>
+<li class='text-lg'><b>Increased Student Loan Debt:</b> Trump’s administration failed to take meaningful action on the escalating student loan crisis, leaving you stuck with ever-mounting debt. His lack of reforms and relief measures means your financial future is at risk, and the burden will only grow heavier. <a href="https://www.cnbc.com/2020/09/01/trump-student-loan-debt.html">🔗</a></li>
+
+<li class='text-lg'><b>Rollback of Environmental Protections:</b> Under Trump, environmental protections took a severe hit, creating a disaster for your future. His decisions to roll back regulations aimed at combating climate change ensure that you will bear the brunt of environmental destruction. The consequences of his policies will make your world increasingly unstable and unlivable. <a href="https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html">🔗</a></li>
 </ul>`};
 conditionsDict["genx"] = {"kamala": `
-<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Empower Generation X</h2>
+<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help Generation X</h2>
 <ul class='list-disc pl-5 space-y-3'>
 <li class='text-lg'>
-<b>Affordable Healthcare:</b> Kamala Harris is determined to make healthcare affordable for you. Your struggle with high prescription drug prices ends here. With her commitment to lowering these costs and ensuring preventive services are covered, you won’t have to sacrifice your health or financial security. Your well-being matters, and Kamala will stand up to keep it that way.
-<a href="https://www.harris.senate.gov/issues/health-care" target="_blank">🔗</a>
+<b>Affordable Healthcare:</b> You need healthcare that doesn’t drain your wallet. Kamala Harris is committed to expanding access to affordable healthcare, making sure you can afford your medication and preventive care. No more stress about whether you can pay for prescriptions or skip annual check-ups. Your health matters, and Harris knows how to help you take control of it.
+<a href="https://www.protectourcare.org/kamala-harris-is-a-health-care-champion/">🔗</a>
 </li>
 <li class='text-lg'>
-<b>Strengthening Retirement Security:</b> You deserve a secure retirement, and Kamala Harris is the champion who will make that happen. Her initiatives to enhance Social Security will ensure you have the income you need when you’ve earned it. The Universal Retirement Savings Account she supports will give you the straightforward means to save, automatically enrolling you and allowing effortless contributions through your paycheck. In a world where retirement feels uncertain, Kamala will fight to protect your future.
-<a href="https://www.harris.senate.gov/issues/social-security" target="_blank">🔗</a>
+<b>Strengthening Retirement Security:</b> You deserve to retire with dignity. Kamala Harris understands that Social Security should be a safety net, not a tightrope. She’s fighting to increase benefits and create a Universal Retirement Savings Account tailored for you, making saving easy and secure. Your future shouldn’t be uncertain because of political games. Harris is in your corner to protect and enhance your benefits so you can enjoy a worry-free retirement.
+<a href="https://www.newsnationnow.com/politics/2024-election/kamala-harris-social-security-views/">🔗</a>
 </li>
 <li class='text-lg'>
-<b>Affordable Housing:</b> You shouldn't have to choose between stability and financial ruin. Kamala Harris will work tirelessly to increase the availability of affordable housing and lower homeownership costs. Her support for incentives and eased zoning regulations means you can find a home without breaking the bank. Plus, you’ll get relief from crushing property taxes, because you deserve to feel secure in your own space.
-<a href="https://www.harris.senate.gov/issues/housing" target="_blank">🔗</a>
+<b>Affordable Housing:</b> Finding a place to call home shouldn’t be an uphill battle. Kamala Harris is spearheading initiatives to make housing affordable and accessible. With her plan to incentivize affordable housing projects and provide relief from high property taxes, you won’t have to feel trapped by soaring costs. She’s dedicated to ensuring that you can settle into a home that feels right for you, without the threat of financial burden hanging over your head.
+<a href="https://nlihc.org/resource/harris-campaign-releases-plans-lower-housing-costs">🔗</a>
 </li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Donald Trump Will Hurt Generation X</h2>
 <ul class='list-disc pl-5 space-y-3'>
 <li class='text-lg'>
-<b>Cuts to Healthcare Programs:</b> Under Trump, the push to dismantle the Affordable Care Act will lead to extreme healthcare cost increases for you. You rely on affordable healthcare to manage chronic conditions and your family’s health needs. Without these protections, you face the reality of higher premiums and out-of-pocket expenses that will strain your finances and jeopardize your health.
-<a href="https://www.pbs.org/newshour/nation/trump-health-care-policies-are-hurting-the-people-they-are-supposed-to-help" target="_blank">🔗</a>
+<b>Cuts to Healthcare Programs:</b> Under Trump, your access to affordable healthcare is at serious risk. His administration made a concerted effort to dismantle the Affordable Care Act, and this could lead to skyrocketing healthcare costs for you. You rely on affordable healthcare to manage chronic conditions and support your family's health needs. Losing these critical protections will mean higher premiums and out-of-pocket expenses for you, making it even harder to stay healthy and secure.
+<a href="https://www.axios.com/2024/05/30/trump-term-2025-gop-health-programs" target="_blank">🔗</a>
 </li>
-
 <li class='text-lg'>
-<b>Proposed Cuts to Social Security:</b> Trump has already signaled support for budget proposals that threaten to reduce your Social Security benefits. As you approach retirement, these cuts will undermine your financial security, leaving you vulnerable to insufficient income in your later years—a recipe for hardship and instability.
-<a href="https://www.forbes.com/sites/robertcargill/2020/01/28/how-the-trump-administration-has-affected-social-security-and-medicare/?sh=13282b1e2cf2" target="_blank">🔗</a>
+<b>Proposed Cuts to Social Security:</b> Trump has pushed for budget proposals aimed at slashing Social Security benefits. As you approach retirement, these cuts threaten your financial security. You deserve a safety net that guarantees you won’t have to struggle to make ends meet in your later years. Reduced benefits will leave you with insufficient income to support yourself, creating unnecessary hardship when you've worked hard your entire life.
+<a href="https://www.vox.com/policy-and-politics/2019/3/12/18260271/trump-medicaid-social-security-medicare-budget-cuts">🔗</a>
 </li>
 </ul>`};
 conditionsDict["worker"] = {"kamala": `
 <h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help You, the Blue-Collar Worker</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Investment in Infrastructure That Benefits You:</b> Kamala Harris is committed to a massive investment in infrastructure projects that will directly create millions of jobs for hardworking individuals like you. By modernizing roads, bridges, and public transit, your work opportunities will flourish. You won't just see the benefits in stats; you'll feel it in your paychecks and your community. This is about investing in your future. <a href="https://kamalaharris.org/issues/infrastructure/">🔗</a></li>
+<li class='text-lg'><b>Increase Investment in Infrastructure:</b> You deserve a chance to thrive, and that starts with a bold investment in infrastructure. Kamala Harris is committed to creating millions of jobs in construction and manufacturing. When she modernizes roads, bridges, and public transit, she’s directly putting you and your neighbors to work, ensuring you have the job opportunities that are slipping away under Trump’s careless leadership. <a href="https://wisconsinexaminer.com/briefs/vp-harris-highlights-union-apprenticeships-infrastructure-investment-in-madison-visit/">🔗</a></li>
 
-<li class='text-lg'><b>Strengthening Your Rights as a Worker:</b> You deserve a fair shot at a good job with safe working conditions. Kamala Harris stands firmly with labor unions and is ready to fight for your rights, ensuring that you can organize and negotiate for better wages and benefits. With her support of the PRO Act, she aims to shield you from the unfair tactics of employers—and that matters to your livelihood. Your rights and your voice will be protected under her leadership. <a href="https://kamalaharris.org/issues/labor/">🔗</a></li>
+<li class='text-lg'><b>Support for Labor Unions and Workers' Rights:</b> Your voice matters, and Kamala Harris is here to amplify it. She stands firmly with labor unions and is dedicated to protecting your rights as a worker. By supporting the PRO Act, she’s fighting to strengthen your ability to organize and negotiate for better conditions—because you shouldn’t have to struggle alone against unfair practices. Under her leadership, you’ll have a champion who understands the importance of fair wages and a dignified workplace. <a href="https://aflcio.org/press/releases/afl-cio-unanimously-endorses-kamala-harris-president">🔗</a></li>
 
-<li class='text-lg'><b>Empowering You Through Job Training:</b> The future requires new skills, and Kamala Harris is dedicated to ensuring you have access to job training and apprenticeship programs that match your ambitions. With increased funding for vocational training and partnerships with businesses, you’ll have the chance to learn and grow while advancing your career. This isn’t just about jobs; it’s about elevating you and your potential. <a href="https://kamalaharris.org/issues/economy/">🔗</a></li>
+<li class='text-lg'><b>Expand Job Training and Apprenticeship Programs:</b> You deserve opportunities for advancement, and Kamala Harris gets that. By investing in job training and apprenticeship programs, she’s ensuring you can gain new skills that put you on the pathway to success. Her plan includes funding for vocational training that aligns directly with the needs of employers, so that you can step into better roles, avoid the dead ends, and secure your future. You won’t be left behind; you’ll be given the tools to excel. <a href="https://www.insidehighered.com/news/government/politics-elections/2024/09/18/harris-joins-calls-nondegree-pathways">🔗</a></li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Trump Will Hurt Blue-Collar Workers</h2>
 
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Rollback of Worker Protections:</b> Under Trump, protections designed to keep you safe and ensure fair wages have been systematically dismantled. The rollback of crucial regulations will lead to worse working conditions, fewer safety measures, and your hard-earned money being undermined. You will be left without the safeguards you deserve, forcing you to work under more dangerous and exploitative conditions.</li>
+<li class='text-lg'><b>Rollback of Worker Protections:</b> Under Trump, worker protections were systematically dismantled. Safety standards and overtime pay rules designed to keep you safe and fairly compensated were rolled back, leaving you at the mercy of employers who are more focused on profits than your well-being. Expect lower wages and deteriorating working conditions to become the norm if he returns to power. <a href="https://www.epi.org/blog/president-trump-has-attacked-workers-safety-wages-and-rights-since-day-one/">🔗</a></li>
 
-<li class='text-lg'><b>Failure to Deliver on Infrastructure Promises:</b> Trump made grand promises about investing in infrastructure to create jobs, yet his administration delivered nothing substantial. His neglect means missed job opportunities for you and your friends in construction and related fields. This broken promise will keep you and countless others from the work that creates strong communities and builds a better future.</li>
+<li class='text-lg'><b>Failure to Deliver on Infrastructure Promises:</b> Trump’s grand promises of a booming infrastructure plan were empty. His administration failed to invest in the projects that could have created thousands of blue-collar jobs, leaving you without the opportunities you deserve. With him back in office, you can expect more broken promises and missed chances to build a better future. <a href="https://www.washingtonpost.com/us-policy/2020/10/18/trump-biden-infrastructure-2020/">🔗</a></li>
 </ul>`};
 conditionsDict["sbo"] = {"kamala": `
 <h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help Small Business Owners</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Increase Access to Capital:</b> Kamala Harris isn’t just talking about improving access to capital; she's committed to making sure you can secure the funding you need to thrive. Imagine being one of the 25 million new business applications in her first term, armed with the necessary resources to grow your dream into reality. That’s the Harris promise to you. <a href="https://kamalaharris.org/issues/economy/">🔗</a></li>
+<li class='text-lg'><b>Increase Access to Capital:</b> Your dreams for your business deserve to be realized. Kamala Harris is committed to ensuring you have the financial support necessary to thrive. By increasing access to capital through enhanced Small Business Administration (SBA) loan programs and creating new grants, she aims to facilitate the launch of 25 million new business applications in her first term. You deserve that chance to grow and succeed. <a href="https://www.forbes.com/sites/rhettbuttle/2024/09/06/kamala-harris-focus-on-small-business-her-job-creation-plan/">🔗</a></li>
 
-<li class='text-lg'><b>Provide Tax Relief:</b> Kamala Harris will fight for you by increasing your startup expense deduction from $5,000 to $50,000. This means more money in your pocket when you need it most. She'll cut through the red tape, making it easier for you to file your taxes and get the licenses you need to operate without unnecessary barriers. This isn’t just policy; it’s your lifeline. <a href="https://democrats.org/news/split-screen-small-businesses-suffered-under-trump-but-would-thrive-thanks-to-vp-harris-new-small-business-agenda/">🔗</a></li>
+<li class='text-lg'><b>Provide Tax Relief:</b> You know the struggle of managing your business’s expenses, and Kamala Harris understands that too. She wants to empower you with meaningful tax relief—by increasing the startup expense deduction from $5,000 to $50,000 and simplifying the tax process. No business owner should be bogged down by unnecessary hurdles when it comes to getting occupational licenses across states. You deserve every advantage to succeed without the weight of excessive taxation holding you back. <a href="https://democrats.org/news/split-screen-small-businesses-suffered-under-trump-but-would-thrive-thanks-to-vp-harris-new-small-business-agenda/">🔗</a></li>
 
-<li class='text-lg'><b>Support Job Creation and Workforce Development:</b> Harris understands that reliable, skilled workers are critical for your business. She plans to invest directly in job training and apprenticeship programs tailored to the needs of entrepreneurs like you. This investment translates to a workforce that’s ready to help you bring your vision to life. It’s about creating real opportunities for you and your community. <a href="https://kamalaharris.org/issues/economy/">🔗</a></li>
+<li class='text-lg'><b>Support Job Creation and Workforce Development:</b> Every small business owner knows the challenge of finding the right skilled workers. Kamala Harris is determined to change that by investing in job training and workforce development programs that meet your specific needs. By expanding apprenticeships and vocational training tailored for small businesses, she’ll help connect you with the talent that will lift your business to new heights. You shouldn’t have to struggle to find the help you need to realize your vision; your success is a priority. <a href="https://www.dol.gov/newsroom/releases/eta/eta20240311">🔗</a></li>
 </ul>`, "trump": `
-<h2 class='text-2xl font-bold mb-4'>How Trump Will Make Your Life Miserable as a Small Business Owner</h2>
+<h2 class='text-2xl font-bold mb-4'>How Trump Will Hurt Small Business Owners</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Favoritism Toward Big Businesses:</b> Under Trump, the landscape for small business owners will get increasingly bleak. His tax cuts and deregulation are specifically designed to shower big corporations with benefits while leaving you in the dust. Those massive corporations are getting breaks that you can only dream of, intensifying the uphill battle you face in trying to make your small business thrive. This kind of favoritism means more barriers for you, making it harder than ever to compete, grow, and succeed.</li>
-<li class='text-lg'><b>Trade Tariffs and Trade Wars:</b> If Trump’s trade policies continue, you'll face an uphill struggle just to keep your doors open. His tariffs on imported goods will hit you hard, as the costs of the materials and supplies you rely on skyrocket. It’s going to eat away at your profits and force you to raise prices, driving customers away. With trade wars looming, the financial stability of your hard work will be jeopardized, leaving you vulnerable to a market stacked against you.</li>
+<li class='text-lg'><b>Favoritism Toward Big Businesses:</b> Trump’s administration has a well-documented history of prioritizing large corporations while leaving small businesses to fend for themselves. With the 2017 Tax Cuts and Jobs Act, he handed out massive tax breaks to big companies, completely ignoring your struggles as a small business owner. This blatant favoritism only worsens the uphill battle you face, making it nearly impossible to compete in a landscape rigged against you. <a href="https://www.americanprogress.org/article/the-tax-cuts-and-jobs-act-failed-to-deliver-promised-benefits/">🔗</a></li>
+
+<li class='text-lg'><b>Trade Tariffs and Trade Wars:</b> Trump's reckless trade policies, like those tariffs on imported goods, have hit small businesses hard. If you rely on international suppliers, you’ve felt the pain of skyrocketing costs directly impacting your profit margins. These trade wars strain your financial stability and make it challenging to stay competitive in a market that’s already stacked against you. <a href="https://www.businessinsider.com/mark-cuban-donald-trump-tariffs-inflation-trade-war-small-business-2024-9">🔗</a></li>
 </ul>`};
 conditionsDict["renter"] = {"kamala": `
-<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help Renters</h2>
+<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help You as a Renter</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Increase Investment in Affordable Housing:</b> Kamala Harris will not sit idly by while you struggle to find a place to live. She is passionately advocating for significant investments in affordable housing because she understands that you deserve better options. It's not just about building more places; it's about creating homes where you can thrive and feel secure. This is personal for her—she knows the pain that comes with the housing crisis, and she’s ready to fight for every dollar to help build and renovate the affordable homes you need <a href="https://kamalaharris.org/issues/housing/">🔗</a>.</li>
+<li class='text-lg'><b>Increase Investment in Affordable Housing:</b> Kamala Harris is determined to change the game for renters like you. She’s pushing for major investments in affordable housing, aimed directly at expanding the options you see available. By funding the construction and repair of affordable rental homes, plus offering incentives to builders, she’s fighting to make sure you have a place you can actually afford to call home. <a href="https://nlihc.org/resource/harris-campaign-releases-plans-lower-housing-costs">🔗</a></li>
 
-<li class='text-lg'><b>Expand Rental Assistance Programs:</b> Kamala Harris believes that you shouldn't have to choose between paying rent and buying groceries. She is determined to expand rental assistance programs, like Section 8, so that you can afford your home without sacrificing your basic needs. This isn't just policy for her; it’s about making your life easier by increasing funding and eligibility, ensuring that more renters like you can get the support you deserve <a href="https://kamalaharris.org/issues/housing/">🔗</a>.</li>
+<li class='text-lg'><b>Expand Rental Assistance Programs:</b> You deserve financial relief. Harris is committed to broadening rental assistance programs like Section 8, which means she wants more funding to ensure that more renters can breathe a little easier when it comes to housing costs. It’s about taking the burden off you, expanding eligibility so that you have a fighting chance against those rising rent prices. <a href="https://www.governing.com/urban/how-local-governments-could-make-use-of-kamala-harris-housing-plan">🔗</a></li>
 
-<li class='text-lg'><b>Strengthen Tenant Protections:</b> You shouldn’t have to live in fear of unfair eviction or steep rent hikes. Kamala Harris is committed to standing up for you, advocating to strengthen tenant protections that will shield you from exploitation. She fights for policies that ensure fairness and respect in the rental market because she knows firsthand how devastating it can be to face housing insecurity. When she takes office, she will make sure you have the rights you need to feel safe and secure in your home <a href="https://kamalaharris.org/issues/housing/">🔗</a>.</li>
+<li class='text-lg'><b>Strengthen Tenant Protections:</b> No one should have to live in fear of unfair treatment from landlords. Kamala Harris is all in on bolstering tenant protections to keep you safe from excessive rent hikes and unjust evictions. She’ll champion policies that ensure you’re treated fairly, protecting your rights and your dignity as a renter. You should feel secure in your home, and she’s going to fight for that. <a href="https://www.nbcnews.com/politics/2024-election/harris-endorse-protections-renters-removal-key-tax-benefits-wall-st-in-rcna166821">🔗</a></li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Trump Will Hurt Renters</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Reduction in HUD Funding:</b> Trump’s budgets slashed crucial funding for the Department of Housing and Urban Development (HUD), making it harder for you to secure affordable housing. The cuts stripped away support for programs that provide rental assistance, leaving you without the safety nets you desperately need. With these weakened protections, your ability to find a stable, affordable home is at serious risk.</li>
+<li class='text-lg'><b>Reduction in HUD Funding:</b> Trump's budget proposals have wreaked havoc on your ability to find affordable housing. By slashing funding for the Department of Housing and Urban Development (HUD), he’s making it nearly impossible for low-income renters to secure the assistance they desperately need. This isn’t just a budget cut; it’s a direct attack on your chance to have a stable home. <a href="https://www.cbpp.org/research/trump-budget-deeply-cuts-health-housing-other-assistance-for-low-and-moderate-income">🔗</a></li>
 
-<li class='text-lg'><b>Opposition to Rent Control Measures:</b> Under Trump, opposition to rent control measures became the norm. His administration actively fought against policies that would keep your rent manageable and stable. This refusal to support rent control means you’re facing rising rental costs without any relief in sight, driving your housing expenses to an all-time high while your paycheck remains stagnant.</li>
+<li class='text-lg'><b>Opposition to Rent Control Measures:</b> Trump has consistently fought against rent control measures, leaving you vulnerable to skyrocketing rent prices and financial instability. His rejection of policies meant to keep housing affordable is pushing you further from the security of a stable home. Expect nothing but chaos as he prioritizes profits over the well-being of everyday people like you. <a href="https://www.cbpp.org/blog/trump-plan-would-raise-rents-on-working-families-elderly-people-with-disabilities">🔗</a></li>
+
 </ul>`};
 conditionsDict["owner"] = {"kamala": `
-<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help You as an Existing Homeowner</h2>
+<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help Existing Homeowners</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Enhance Homeowner Relief Programs:</b> Kamala Harris is committed to making sure you don’t face foreclosure during tough times. She knows the weight on your shoulders when financial difficulties arise. By expanding relief programs for mortgage forbearance and modifications, she will ensure you have the support you need to stay in your home and regain your footing. This isn’t just policy—it’s about protecting your home and your peace of mind. <a href="https://kamalaharris.org/issues/housing/">🔗</a></li>
+<li class='text-lg'><b>Enhance Homeowner Relief Programs:</b> Kamala Harris is committed to expanding relief programs because no one should have to live in fear of losing their home, especially during tough times. If you’re facing financial difficulties, her plan to increase mortgage forbearance and modification programs directly targets your situation, ensuring you get the support you deserve to avoid foreclosure and stay in your home. <a href="https://fortune.com/2024/07/22/kamala-harris-jamie-dimon-settlement-california-homeowners-big-banks-financial-crisis/">🔗</a></li>
 
-<li class='text-lg'><b>Promote Home Energy Efficiency:</b> Imagine cutting your utility bills while boosting your home’s value. Kamala Harris is ready to invest in grants and incentives that will enable you to make essential energy-efficient upgrades. She believes that your home should be a source of savings and sustainability, not a financial burden. This isn’t just about the environment—it’s about you and your wallet. <a href="https://kamalaharris.org/issues/climate-change/">🔗</a></li>
+<li class='text-lg'><b>Promote Home Energy Efficiency:</b> Harris knows that you’re looking to save money and boost the value of your home. That’s why she’s championing investments in energy-efficient upgrades. With grants and incentives for improvements, you can cut down on those rising utility bills while making your place feel even better. This isn’t just about your home; it’s about making your life more manageable. <a href="https://environmentamerica.org/updates/vice-president-kamala-harris-announces-new-energy-efficiency-programs/">🔗</a></li>
 
-<li class='text-lg'><b>Support Property Tax Relief:</b> Kamala understands that high property taxes can be a crushing weight on your family’s finances. That’s why she supports policies that offer real relief, adjusting assessments and targeting support for those of you who are struggling. She won't let you drown under an unfair tax burden. This is about giving you the breathing room you need to truly thrive in your own home. <a href="https://kamalaharris.org/issues/economy/">🔗</a></li>
+<li class='text-lg'><b>Support Property Tax Relief:</b> If you're feeling the pinch from high property taxes, Kamala Harris stands with you. She’s advocating for targeted relief to ease that burden, aiming to adjust property tax assessments so you can hold onto your home without financial strain. You shouldn’t have to choose between keeping your house and making ends meet. <a href="https://kamalaharris.org/issues/economy/">🔗</a></li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Trump Will Hurt Homeowners</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Slashed tax breaks for homeowners:</b> Under Trump, your financial relief as a homeowner will vanish. The changes made in the Tax Cuts and Jobs Act of 2017 stripped away crucial mortgage interest deductions and imposed harsh limits on your local tax deductions. This isn't just a hit to your wallet; it's an attack on your ability to build a stable and secure future in your own home.</li>
-<li class='text-lg'><b>Rollback of Consumer Protections:</b> Trump's administration has relentlessly targeted consumer protections in the housing market, putting you at greater risk. Weakening these regulations means it will be even harder for you to obtain fair loans, all while increasing the chance that you'll face foreclosure. The stakes are high, and his actions will leave you vulnerable as you fight for economic security.</li>
+<li class='text-lg'><b>Slashed tax breaks for homeowners:</b> The Tax Cuts and Jobs Act of 2017 devastated your financial stability by limiting the mortgage interest deduction and capping state and local tax deductions. This isn’t just a minor inconvenience; it’s a direct hit to your ability to afford your home and build equity. <a href="https://www.nar.realtor/mortgage-interest-deduction">🔗</a></li>
+<li class='text-lg'><b>Rollback of Consumer Protections:</b> Under Trump, the rollback of essential consumer protection regulations in the housing market has only made the situation worse for you. With reduced safeguards in mortgage lending, securing fair loans has become an uphill battle, and the risk of foreclosure looms larger than ever. You deserve better than this reckless disregard for your home and your family’s future. <a href="https://www.nycbar.org/blogs/trump-administrations-rollback-of-federal-fair-housing-act-protections/">🔗</a></li>
 </ul>`};
 conditionsDict["buyer"] = {"kamala": `
 <h2 class='text-2xl font-bold mb-4'>Kamala Harris Initiatives for Home Buyers</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Down Payment Assistance:</b> Kamala Harris knows that saving for a down payment can feel like an impossible hurdle, especially with the challenges Trump has imposed on our economy. That’s why she’s fighting to increase federal funding for down payment assistance programs like the <b>Home Investment Partnerships Program</b> and the <b>First-Time Homebuyer Tax Credit</b>. You deserve to have up to <b>$15,000</b> in assistance to help you make your homeownership dreams a reality. This isn’t just about funding; it's about making sure you and your family can finally have a place to call your own without overwhelming financial strain. <a href="https://www.harris.senate.gov/news/press-releases/harris-introduces-new-legislation-to-help-first-time-homebuyers" target="_blank">🔗</a></li>
+<li class='text-lg'><b>Down Payment Assistance:</b> Kamala Harris is determined to lift the burden off your shoulders when it comes to handling the financial strain of buying your first home. By boosting federal funding for down payment assistance through initiatives like the <b>Home Investment Partnerships Program</b> (HOME) and the <b>First-Time Homebuyer Tax Credit</b>, she’s fighting for you to receive up to <b>$15,000</b>. This means you won’t be stuck scraping together every last penny just to cover those daunting upfront costs, whether it’s the down payment or closing expenses. You deserve the chance to build equity and a future—Harris is making that possible. <a href="https://www.cnn.com/2024/08/16/politics/harris-middle-class-tax-cuts-economic-policy/index.html">🔗</a></li>
 
-<li class='text-lg'><b>Increasing Housing Supply:</b> You feel the crunch of the housing market, and Kamala Harris is right there with you—she understands that affordable housing is crucial for families like yours. By proposing federal incentives to local governments for easing zoning regulations, she’s committed to making it easier to build the homes you need. This initiative supports the construction of <b>multi-family homes</b> and <b>mixed-use developments</b>, directly targeting the housing shortages that keep people like you from finding a place to live. Kamala’s vision ensures that home prices stabilize and become more accessible so that you won’t have to compete in a bidding war that feels impossible. This is about making your home-buying experience as smooth as it should be, not what it is under Trump’s reckless policies.</li>
+<li class='text-lg'><b>Increasing Housing Supply:</b> We recognize your struggle against rising housing costs. Harris is committed to addressing this crisis head-on by ensuring there’s enough affordable housing for people like you. Her plan includes strong federal incentives that will encourage local governments to <b>ease zoning regulations</b> and simplify the permitting process. This isn’t just about statistics; it’s about creating multi-family homes and mixed-use developments where you can find a place you actually want to live without feeling suffocated by high prices. By focusing on affordable housing in both urban and suburban neighborhoods, she aims to create a market where you can find a home that suits your needs without breaking the bank. You deserve better, and she’s working to make it a reality. <a href="https://www.usatoday.com/story/news/politics/elections/2024/09/23/kamala-harris-housing-plan-3-million-units/75260527007/">🔗</a></li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Donald Trump Will Hurt Home Buyers</h2>
 <ul class='list-disc pl-5 space-y-3'>
 <li class='text-lg'>
-<b>Proposed Cuts to Affordable Housing Programs:</b> Trump has continually pushed budget proposals that slash funding for affordable housing initiatives like the Community Development Block Grant program. These cuts will devastate your ability to find affordable housing, especially if you’re looking in urban areas. The dream of homeownership will slip further from your grasp under policies that prioritize wealthy developers over people trying to build a life.
-<a href="https://www.nbcnews.com/politics/donald-trump/trump-says-housing-costs-are-issue-then-proposes-budget-cuts-affordable-n982146" target="_blank">🔗</a>
+<b>Proposed Cuts to Affordable Housing Programs:</b> Trump has proposed devastating cuts to <b>affordable housing initiatives</b>, including the Community Development Block Grant program. These cuts jeopardize crucial resources that support your ability to buy a home, especially in urban areas. Finding affordable housing will become nearly impossible under his agenda.
+<a href="https://www.cbpp.org/research/trump-budget-deeply-cuts-health-housing-other-assistance-for-low-and-moderate-income">🔗</a>
 </li>
 <li class='text-lg'>
-<b>Rollback of Consumer Protections:</b> Under Trump's leadership, consumer protection regulations in the housing market have come under relentless attack. These rollbacks endanger your ability to secure fair loans and increase the risk of foreclosure. This means you could end up trapped in predatory lending practices, struggling to keep your home while the system tilts further against you.
-<a href="https://www.forbes.com/sites/michaelhodges/2020/01/28/trump-administration-rolling-back-consumer-protections-in-housing-market/?sh=66183c2f547e" target="_blank">🔗</a>
+<b>Rollback of Consumer Protections:</b> Under Trump, consumer protection regulations in the housing market are under constant threat. He seeks to undermine the safeguards that ensure you can secure fair loans. This rollback will lead to heightened risks of foreclosure, putting your dreams of home ownership in jeopardy.
+<a href="https://www.nycbar.org/blogs/trump-administrations-rollback-of-federal-fair-housing-act-protections/">🔗</a>
 </li>
 </ul>`};
 conditionsDict["parent"] = {"kamala": `
 <h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help Parents</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Expanding Paid Family Leave:</b> You deserve the peace of mind to care for your newborn or your loved ones when they need you. Kamala Harris is committed to a national paid family leave program, so you can take that crucial time off without stress about losing income. You shouldn't have to choose between your job and your family. You deserve that security. <a href="https://www.nbcnews.com/politics/2020-election/kamala-harris-pushes-paid-family-leave-rcna2951">🔗</a></li>
+<li class='text-lg'><b>Expanding Paid Family Leave:</b> You deserve the right to take time off when your child is born or when they’re sick without the fear of losing your paycheck. Kamala is committed to establishing a national paid family leave program that lets you be there for your family during their most critical moments. This isn't just a policy; it's a lifeline for parents like you. <a href="https://www.glamour.com/story/harris-and-walz-the-most-pro-paid-family-leave-presidential-ticket-in-history">🔗</a></li>
 
-<li class='text-lg'><b>Increasing Child Care Funding:</b> Balancing work and family shouldn't feel impossible. Kamala Harris understands the heavy financial burden child care places on families. By increasing funding for child care programs, she’ll ensure you have access to affordable, high-quality care. You should be able to focus on your work, knowing your children are in good hands, not worrying about how to afford it. <a href="https://www.cnn.com/2020/08/20/politics/kamala-harris-childcare/index.html">🔗</a></li>
+<li class='text-lg'><b>Increasing Child Care Funding:</b> The struggle to find affordable, high-quality child care is real, and Kamala knows it. She's pushing for increased funding to make child care accessible and affordable so you can focus on your job without worrying about who’s taking care of your kids. Balancing work and family shouldn't have to feel impossible. <a href="https://www.newsweek.com/kamala-harris-new-child-care-plan-1955406">🔗</a></li>
 
-<li class='text-lg'><b>Enhanced Child Tax Credit:</b> Every hard-working parent deserves relief. Kamala Harris is dedicated to expanding the Child Tax Credit, increasing what you receive and making sure more families can benefit from it. You deserve that financial support to help you care for your kids, especially in times like these. <a href="https://www.politico.com/news/2021/03/01/kamala-harris-child-tax-credit-473112">🔗</a></li>
+<li class='text-lg'><b>Enhanced Child Tax Credit:</b> You shouldn’t have to choose between putting food on the table and giving your kids the life they deserve. Kamala’s plan to expand the Child Tax Credit means more money in your pocket, easing those financial pressures and helping you provide for your family. This is about lifting up families like yours when you need it most. <a href="https://edsource.org/updates/kamala-harris-proposes-restoring-expanded-child-tax-credit">🔗</a></li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Trump Will Hurt Parents</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Proposed Cuts to Child Care Funding:</b> Under Trump's leadership, the budget proposals include severe cuts to child care funding and early education programs. This means you could face reduced availability and skyrocketing costs for child care, forcing you to take on an even heavier financial burden to secure affordable care for your children.</li>
-<li class='text-lg'><b>Cuts to Education:</b> Trump's education budget has repeatedly included significant cuts that are bound to drive tuition rates up and strip resources from public colleges. This will make it increasingly difficult for you to afford your children’s education. Additionally, he rolled back crucial consumer protections for student loans, leaving you and your family grappling with mounting debt and financial strain.</li>
+<li class='text-lg'><b>Proposed Cuts to Child Care Funding:</b> Trump’s budget proposals slashed funding for child care and early education programs. These cuts will reduce availability and skyrocket costs for child care, squeezing your budget even tighter and making it nearly impossible to find affordable care options when you need them. <a href="https://nwlc.org/wp-content/uploads/2017/08/Trump-Budget-Would-Reduce-Families-Access-to-Early-Care-and-Education-Final.pdf">🔗</a></li>
+
+<li class='text-lg'><b>Cuts to Education:</b> Trump’s budget has included severe cuts that will spike tuition rates and limit resources at public colleges. You’ll struggle more than ever to afford your children’s education and grapple with the crushing burden of student debt, especially after he rolled back essential consumer protections designed to help families manage that debt. <a href="https://protectborrowers.org/wp-content/uploads/2020/09/Trump-Memo.pdf">🔗</a></li>
 </ul>`};
 conditionsDict["futureparent"] = {"kamala": `
 <h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help You If You Want Kids in the Future</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>More financial support:</b> You deserve the peace of mind that comes with knowing that when you decide to start a family, you won’t be crushed under the weight of financial burdens. Kamala Harris is all in on expanding funding for child care, making quality services accessible to you and lifting the burden when you need it most. That expanded Child Tax Credit? It's about putting money back in your pocket, putting you on a path where your dreams of parenthood aren't just dreams. <a href="https://www.cnn.com/2020/08/20/politics/kamala-harris-childcare/index.html">🔗</a></li>
+<li class='text-lg'><b>More financial support:</b> Kamala Harris is committed to transforming your experience as a future parent. Expanding funding for child care means that you won't have to break the bank to give your child the best start in life. Enhancing the Child Tax Credit means more cash in your pocket when you need it most. This isn't just policy; it's about making sure you can focus on being a parent without the constant stress of financial strain. <a href="https://edsource.org/updates/kamala-harris-proposes-restoring-expanded-child-tax-credit">🔗</a></li>
 
-<li class='text-lg'><b>Expanding Access to Affordable Fertility Treatments:</b> If you’re facing the challenge of starting a family and the costs of fertility treatments have been holding you back, Kamala Harris is fighting for you. She understands the emotional and financial strain of high costs for procedures like IVF. It’s time for you to have accessible, affordable family planning services that empower you to take charge of your future. <a href="https://www.washingtonpost.com/health/2020/08/14/kamala-harris-fertility-treatment-access/">🔗</a></li>
+<li class='text-lg'><b>Expanding Access to Affordable Fertility Treatments:</b> Many people are struggling with the immense costs of fertility treatments, and that should not be your obstacle. Kamala Harris is fighting to make these necessary services affordable. She understands the heartache and challenges you face in starting a family, and she is ready to break down those barriers so you can access the care you need to build your family without financial ruin. <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2024/09/17/statement-from-vice-president-harris-on-senate-republicans-vote-to-once-again-block-nationwide-protections-for-ivf/">🔗</a></li>
 
-<li class='text-lg'><b>Improving Paid Family Leave:</b> You shouldn’t have to choose between your job and caring for your newborn or adopted child. Harris is committed to comprehensive paid family leave policies that support you during that crucial time. She believes every parent deserves the time to bond with their child without the fear of losing their paycheck. It's about creating the balance you need for your career and your family. <a href="https://www.nbcnews.com/politics/2020-election/kamala-harris-pushes-paid-family-leave-rcna2951">🔗</a></li>
+<li class='text-lg'><b>Improving Paid Family Leave:</b> Your ability to take time off from work to bond with your newborn or adopted child without fearing unpaid bills is non-negotiable. Kamala Harris's push for a comprehensive paid family leave policy means that you will be able to prioritize your family now while still safeguarding your career. This kind of support is crucial in allowing you to be a present and engaged parent, free from the burden of financial worry. <a href="https://www.glamour.com/story/harris-and-walz-the-most-pro-paid-family-leave-presidential-ticket-in-history">🔗</a></li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Trump Will Hurt Parents</h2>
 <ul class='list-disc pl-5 space-y-3'>
-<li class='text-lg'><b>Proposed Restrictions on IVF Coverage:</b> Under Trump, your dreams of starting or growing your family could be shattered. His support for bans on IVF treatments puts your hopes at risk, and his party consistently votes against protecting your reproductive choices. Your journey as a parent could turn into a desperate struggle against policies designed to limit your options.</li>
-<li class='text-lg'><b>Proposed Cuts to Child Care Funding:</b> Trump's budget plans threaten to crush your ability to access affordable child care and early education. Significant cuts to funding mean fewer options and skyrocketing costs, leaving you to bear the financial burden while trying to provide a quality future for your children. The impact could be devastating for your family.</li>
-<li class='text-lg'><b>Hurt reproductive freedom:</b> Trump's actions against Roe v. Wade are a direct attack on your autonomy. He takes pride in the implementation of strict abortion bans, which endanger women's health and increase the risks of severe complications. Under his policies, your freedom to make crucial health decisions will diminish, putting you and women everywhere in jeopardy.</li>
+<li class='text-lg'><b>Proposed Restrictions on IVF Coverage:</b> Trump is pushing policies that threaten your ability to access IVF treatments. His party has consistently voted against protecting these vital services. Under Trump, your hopes of starting or growing your family could be dashed. <a href="https://www.huffpost.com/entry/gop-senator-blocks-bill-protecting-ivf-alabama_n_65df9d68e4b0189a6a80506a">🔗</a></li>
+<li class='text-lg'><b>Proposed Cuts to Child Care Funding:</b> Trump’s budget plans include deep cuts to child care and early education funding. If he gets his way, you’ll face skyrocketing child care costs and diminished access to quality care for your children. This is not just a budget issue; it's about your family’s future. <a href="https://nwlc.org/wp-content/uploads/2017/08/Trump-Budget-Would-Reduce-Families-Access-to-Early-Care-and-Education-Final.pdf">🔗</a></li>
+<li class='text-lg'><b>Hurt reproductive freedom:</b> Trump boasts about ending Roe v. Wade, celebrating extreme measures that restrict your reproductive freedom. His policies put your health at risk, increasing the likelihood of severe complications from pregnancy or abortion. This is not just about choice; it's about your safety and well-being. <a href="https://thehill.com/homenews/campaign/4008311-trump-boasts-he-was-able-to-kill-roe-v-wade-takes-credit-for-state-abortion-bans/">🔗</a> <a href="https://www.americanprogress.org/article/abortion-bans-will-result-in-more-women-dying/">🔗</a></li>
 </ul>`};
 conditionsDict["nokids"] = {"kamala": `
-<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help People Who Don't Want Kids</h2>
+<h2 class='text-2xl font-bold mb-4'>How Kamala Harris Will Help You If You Don't Want Kids</h2>
 <ul class='list-disc pl-5 space-y-3'>
 <li class='text-lg'>
-<b>Access to Reproductive Health Services:</b> Kamala Harris is fighting for your right to make your own choices about your body and your future. She believes that everyone deserves expanded access to comprehensive reproductive health services. You shouldn’t be pressured into parenthood; you should have the power to decide if and when you want to start a family. Harris is dedicated to ensuring that you have the resources you need, like contraceptives and family planning support, so your life can be on your own terms.
-<a href="https://www.harris.senate.gov/issues/reproductive-health" target="_blank">🔗</a>
+<b>Access to Reproductive Health Services:</b> Kamala Harris is fiercely committed to expanding access to <b>reproductive health services</b>. You deserve the right to make choices about your own body and your own life. Her policies ensure that you can access contraceptives and family planning resources without barriers. Your autonomy in deciding when or if you want to have children is non-negotiable in a Harris administration.
+<a href="https://calmatters.org/politics/2024/08/kamala-harris-abortion-california/">🔗</a>
 </li>
 <li class='text-lg'>
-<b>Support for Paid Family Leave for Relatives:</b> Life is complex. Kamala gets that families can look different and you might be caring for relatives or friends who need your support. That’s why she’s focused on creating paid family leave that acknowledges your unique responsibilities. You shouldn’t have to choose between work and supporting those you love. Harris is working hard to secure funding for programs that give you the time and financial backing you need to be there for your family—and we’ll make sure you feel empowered in your important role.
-<a href="https://www.harris.senate.gov/issues/family-leave" target="_blank">🔗</a>
+<b>Support for caregivers for relatives:</b> Life is complex, and families come in all shapes and sizes. If you're caring for relatives, not just children, Harris recognizes your needs. She supports family leave policies that allow you to take the time necessary to support the ones you love. Her commitment includes funding for training, respite care, and financial assistance, freeing you to manage your responsibilities without added stress.
+<a href="https://19thnews.org/2024/07/the-momala-economy-caregiving-child-care-disability-rights/">🔗</a>
 </li>
 <li class='text-lg'>
-<b>Support Job Creation and Workforce Development:</b> In today’s economy, you deserve opportunities that match your ambitions. Kamala Harris is committed to investing in job training and workforce development programs that will directly benefit you. Whether it’s through apprenticeships, vocational training, or even free community college, her vision is about ensuring you can thrive in a job that fulfills you—no matter your family plans. This is your chance to rise without the fear of being held back.
-<a href="https://kamalaharris.org/issues/economy/">🔗</a>
+<b>Increasing affordability:</b> You shouldn’t have to struggle to make ends meet. Kamala's vision includes ambitious initiatives to make housing, groceries, and health care more affordable for you, all while growing our economy. She’s here to ensure that your everyday life is manageable, rather than another burden brought on by an indifferent administration.
+<a href="https://www.cnn.com/2024/08/16/politics/harris-middle-class-tax-cuts-economic-policy/index.html">🔗</a>
 </li>
 </ul>`, "trump": `
 <h2 class='text-2xl font-bold mb-4'>How Donald Trump Will Hurt You If You Don't Want Children</h2>
 <ul class='list-disc pl-5 space-y-3'>
 <li class='text-lg'>
-<b>Rollbacks on Reproductive Rights:</b> Under Trump, reproductive rights have faced relentless attacks. His administration is determined to roll back access to abortion services, and his efforts to defund Planned Parenthood will strip away critical options for you, making it nearly impossible to make the personal choices that safeguard your autonomy.
-<a href="https://www.nbcnews.com/politics/donald-trump/trump-administration-defunding-planned-parenthood-what-means-n998591" target="_blank">🔗</a>
+<b>Rollbacks on Reproductive Rights:</b> You’ve seen how Trump's administration has attacked your right to choose. His efforts to defund Planned Parenthood and similar organizations have already limited your options, and it’s only going to get worse. Imagine a future where your ability to make personal reproductive choices is under constant threat. This isn’t just about politics; it’s about your fundamental rights and freedom.
+<a href="https://www.nbcnews.com/news/latino/nearly-900-women-s-health-clinics-have-lost-federal-funding-n1069591">🔗</a>
 </li>
 <li class='text-lg'>
-<b>Increased Barriers to Contraception:</b> Trump has been relentless in pushing policies that create obstacles to accessing contraception. By allowing employers to deny contraceptive coverage based on their personal beliefs, he’s directly undermining your ability to prevent unwanted pregnancies, putting your health and future in jeopardy.
-<a href="https://www.healthaffairs.org/do/10.1377/hblog20190507.992829/full/" target="_blank">🔗</a>
+<b>Increased Barriers to Contraception:</b> Trump's policies have actively supported restrictions on your access to contraception. Employers could deny coverage based on their own beliefs, leaving you vulnerable. This is a direct assault on your autonomy and your ability to prevent unwanted pregnancies. You deserve the right to make choices about your own body without interference.
+<a href="https://www.nytimes.com/2020/07/08/us/supreme-court-birth-control-obamacare.html">🔗</a>
 </li>
 </ul>`};
+
+
+
 
 
 
@@ -215,19 +221,30 @@ conditionsDict["nokids"] = {"kamala": `
 
 conditionsDict[""] = {"kamala": "TODO", "trump": "TODO"}
 
+var currentUrlParams = "";
+
 function displayContent() {
     var conditionKey = "";
     var resultContent = "";
+    currentUrlParams = "";
     ["age", "home", "parent", "work"].forEach((category) => {
 		const contentId = document.getElementById(category).value;
 		if (contentId != "") {
                 	conditionKey += contentId;
                 	resultContent += conditionsDict[contentId].kamala + "<br>" + conditionsDict[contentId].trump + "<br>";
+			if (currentUrlParams == "") {
+                          currentUrlParams = "?";
+                        } else {
+ 			  currentUrlParams +="&"
+			}
+			currentUrlParams += category + "=" + contentId;
 		}
     });
 
     if (resultContent == "") {
       resultContent = "<h2 class='text-2xl mb-4'>Please select at least one option above.</h2>";
+    } else {
+	// TODO: add in social / sharing links
     }
     
     // TODO: bring back in for top combo
@@ -237,16 +254,6 @@ function displayContent() {
     resultDiv.style.display = 'block';
     resultDiv.scrollIntoView({ behavior: 'smooth' });
 }
-
-function makeExclusive(checkbox) {
-  const checkboxes = document.querySelectorAll('input[name=' + checkbox.name + ']');
-  checkboxes.forEach(cb => {
-    if (cb !== checkbox) {
-      cb.checked = false;
-    }
-  });
-}
-
 
     // Function to manage exclusive selection behavior
     function selectOption(button, category, value) {
@@ -262,6 +269,10 @@ function makeExclusive(checkbox) {
 	// Save selected value in the hidden input
         document.getElementById(category).value = value;
     }
+
+function getUrlParams() {
+	return currentUrlParams;
+}
 
 function actOnURLParameters() {
             const params = new URLSearchParams(window.location.search);
