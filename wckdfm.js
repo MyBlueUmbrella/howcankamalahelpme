@@ -267,6 +267,11 @@ function formatContent(kamalaContent, trumpContent) {
 				+ trumpContent + "</section><br>";
 }
 
+function isMobile() {
+  const userAgent = navigator.userAgent.toLowerCase();
+  return /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini|symbian|windows phone|wp7|nokia|symbian os|webos|palm os|meego|tizen|mobile|phone|tablet/.test(userAgent);
+}
+
 function displayContent() {
     var conditionKey = "";
     var resultContent = "";
@@ -307,13 +312,47 @@ function displayContent() {
     resultDiv.innerHTML = resultContent;
     resultDiv.style.display = 'block';    
 
-    document.getElementById('socials').style.display = 'block';
-    document.getElementById('fbshare').href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("http://www.whowillhelpme.com" + currentUrlParams);
-    document.getElementById('xshare').href = "https://x.com/share?url=" + encodeURIComponent("http://www.whowillhelpme.com" + currentUrlParams);
+    const socialDiv = document.getElementById('socials');
+    if (isMobile()) {
+      socialDiv.innerHTML = `<span class="text-lg font-medium text-gray-800 mb-2">Share This Result! </span> 
+	<button id="shareButton"><i class="fas fa-share-alt text-2xl"></i></button>`;
+      document.getElementById('shareButton').addEventListener('click', function() {
+        navigator.share({
+          url: "http://www.whowillhelpme.com" + currentUrlParams
+        }).then(() => {
+          console.log('Successfully shared');
+        }).catch((error) => {
+          console.error('Error sharing', error);
+        });
+      });
+    } else {
+      socialDiv.innerHTML = `<span class="text-lg font-medium text-gray-800 mb-2">Share This Result! </span>
 
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" class="text-blue-600 hover:text-blue-800 mx-2" id="fbshare">
+        <i class="fab fa-facebook text-3xl"></i>
+    </a>
+    
+    <!-- X -->
+    <a href="https://x.com/intent/post?url=" target="_blank" class="hover:text-blue-600 mx-2" id="xshare">
+        <i class="fab fa-x-twitter text-3xl"></i>
+    </a>
+    
+    <!-- Threads -->
+    <a href="https://www.threads.net/intent/post?url=" target="_blank" class="hover:text-blue-600 mx-2" id="tshare">
+        <i class="fa-brands fa-threads text-3xl"></i>
+    </a>
+
+    <!-- clipboard -->
+    <a href="#" onclick="copyToClipboard(); return false;"
+	<i class="fa-solid fa-clipboard text-3xl"></i>
+    </a>`;
+      document.getElementById('fbshare').href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("http://www.whowillhelpme.com" + currentUrlParams);
+      document.getElementById('xshare').href = "https://x.com/intent/post?url=" + encodeURIComponent("http://www.whowillhelpme.com" + currentUrlParams);           
+      document.getElementById('tshare').href = "https://www.threads.net/intent/post?url=" + encodeURIComponent("http://www.whowillhelpme.com" + currentUrlParams);
+    }
+    socialDiv.style.display = 'block';
     resultDiv.scrollIntoView({ behavior: 'smooth' });
-
-
 }
 
     // Function to manage exclusive selection behavior
