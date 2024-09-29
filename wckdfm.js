@@ -296,8 +296,15 @@ function displayContent() {
     // const resultContent = conditionsDict[conditionKey];
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML = resultContent;
-    resultDiv.style.display = 'block';
+    resultDiv.style.display = 'block';    
+
+    document.getElementById('socials').style.display = 'block';
+    document.getElementById('fbshare').href = "https://www.facebook.com/sharer/sharer.php?u=" + "http://www.howwillkamalahelpme.com" + currentUrlParams;
+    document.getElementById('xshare').href = "https://x.com/intent/post?url=" + "http://www.howwillkamalahelpme.com" + currentUrlParams;
+
     resultDiv.scrollIntoView({ behavior: 'smooth' });
+
+
 }
 
     // Function to manage exclusive selection behavior
@@ -314,10 +321,6 @@ function displayContent() {
 	// Save selected value in the hidden input
         document.getElementById(category).value = value;
     }
-
-function getUrlParams() {
-	return currentUrlParams;
-}
 
 function actOnURLParameters() {
             const params = new URLSearchParams(window.location.search);
@@ -339,6 +342,15 @@ function actOnURLParameters() {
 		displayContent();
 	    }
 }
+
+function copyToClipboard() {
+            const textToCopy = "http://www.howwillkamalahelpme.com" + currentUrlParams;
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert('Result URL copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        }
 
 // Act on any URL parameters
 actOnURLParameters();
