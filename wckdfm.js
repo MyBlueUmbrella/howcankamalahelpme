@@ -299,8 +299,8 @@ function displayContent() {
     resultDiv.style.display = 'block';    
 
     document.getElementById('socials').style.display = 'block';
-    document.getElementById('fbshare').href = "https://www.facebook.com/sharer/sharer.php?u=" + "http://www.howwillkamalahelpme.com" + currentUrlParams;
-    document.getElementById('xshare').href = "https://x.com/intent/post?url=" + "http://www.howwillkamalahelpme.com" + currentUrlParams;
+    document.getElementById('fbshare').href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("http://www.howwillkamalahelpme.com" + currentUrlParams);
+    document.getElementById('xshare').href = "https://x.com/intent/post?url=" + encodeURIComponent("http://www.howwillkamalahelpme.com" + currentUrlParams);
 
     resultDiv.scrollIntoView({ behavior: 'smooth' });
 
