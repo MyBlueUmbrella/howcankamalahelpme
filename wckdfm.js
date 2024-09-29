@@ -392,13 +392,13 @@ function actOnURLParameters() {
 }
 
 function copyToClipboard() {
-            const textToCopy = "http://www.whowillhelpme.com" + currentUrlParams;
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                alert('Result URL copied to clipboard!');
-            }).catch(err => {
-                console.error('Failed to copy: ', err);
-            });
-        }
+    const textToCopy = "http://www.whowillhelpme.com" + currentUrlParams;
+    navigator.clipboard.writeText(textToCopy).then(() => {
+	alert('Result URL copied to clipboard!');
+    }).catch(err => {
+	console.error('Failed to copy: ', err);
+    });
+}
 
 // Act on any URL parameters
 actOnURLParameters();
