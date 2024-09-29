@@ -124,7 +124,7 @@ conditionsDict["renter"] = {"kamala": `
 <li class='text-lg'><b class='text-red-900'>Opposition to Rent Control Measures:</b> Under Trump, there has been a blatant opposition to rent control measures meant to keep your rental costs manageable. His administration stopped policies that could have helped stabilize your rent and eased the financial burden. You would face skyrocketing rent without any relief. <a href="https://www.cbpp.org/blog/trump-plan-would-raise-rents-on-working-families-elderly-people-with-disabilities">🔗</a></li>
 </ul>`};
 conditionsDict["owner"] = {"kamala": `
-<h2 class='text-3xl font-bold text-blue-800 mb-4 border-b-4 border-blue-300'>How Kamala Harris Will Help Existing Homeowners</h2>
+<h2 class='text-3xl font-bold text-blue-800 mb-4 border-b-4 border-blue-300'>How Kamala Harris Will Help Homeowners</h2>
 <ul class='list-disc pl-5 space-y-3'>
 <li class='text-lg'><b class='text-blue-900'>Enhance Homeowner Relief Programs:</b> Kamala Harris knows that you face real challenges as a homeowner, especially when unexpected financial strains hit. Her support for mortgage forbearance and modifications isn’t just policy—it's a lifeline to help you avoid the nightmare of foreclosure in tough times. <a href="https://oag.ca.gov/news/press-releases/attorney-general-kamala-d-harris-secures-18-billion-california-commitment">🔗</a></li>
 
@@ -185,7 +185,7 @@ conditionsDict["futureparent"] = {"kamala": `
 <li class='text-lg'><b class='text-red-900'>Hurt reproductive freedom:</b> Trump's bragging about "killing Roe v. Wade" isn't just political rhetoric; it translates to real consequences for you. His endorsement of strict abortion bans leads to severe health risks for women, straying from your fundamental right to choose and jeopardizing your well-being. <a href="https://thehill.com/homenews/campaign/4008311-trump-boasts-he-was-able-to-kill-roe-v-wade-takes-credit-for-state-abortion-bans/">🔗</a> The policies he supports can increase health complications, including infection or worse. <a href="https://www.americanprogress.org/article/abortion-bans-will-result-in-more-women-dying/">🔗</a></li>
 </ul>`};
 conditionsDict["nokids"] = {"kamala": `
-<h2 class='text-3xl font-bold text-blue-800 mb-4 border-b-4 border-blue-300'>How Kamala Harris Will Help People Who Don't Want Kids</h2>
+<h2 class='text-3xl font-bold text-blue-800 mb-4 border-b-4 border-blue-300'>How Kamala Harris Will Help Folks Without Kids</h2>
 <ul class='list-disc pl-5 space-y-3'>
 <li class='text-lg'>
 <b class='text-blue-900'>Access to Reproductive Health Services:</b> By advocating for expanded access to reproductive health services—including contraceptives and family planning—Kamala Harris is fighting for your right to decide when and if you want to have children. The last thing you need is a government trying to undermine your medical freedom.
@@ -197,10 +197,7 @@ conditionsDict["nokids"] = {"kamala": `
 <a href="https://19thnews.org/2024/07/the-momala-economy-caregiving-child-care-disability-rights/">🔗</a>
 </li>
 
-<li class='text-lg'>
-<b class='text-blue-900'>Increasing affordability:</b> Your everyday existence should not be a financial battle. Kamala Harris is dedicated to making housing, groceries, and healthcare affordable for you while ensuring the economy grows. You deserve to thrive, not just get by, and her initiatives will directly ease your burden.
-<a href="https://www.cnn.com/2024/08/16/politics/harris-middle-class-tax-cuts-economic-policy/index.html">🔗</a>
-</li>
+
 </ul>`, "trump": `
 <h2 class='text-3xl font-bold text-red-800 mb-4 border-b-4 border-red-300'>How Donald Trump Will Hurt You If You Don't Want Children</h2>
 <ul class='list-disc pl-5 space-y-3'>
@@ -254,6 +251,7 @@ conditionsDict["other"] = {"kamala": `
 <li class='text-lg'><b class='text-red-900'>Price increases:</b> Under Trump, his tariffs will hit your wallet hard. You're looking at skyrocketing costs for food and grocery items, pushing the average family to pay an extra $4,000 a year. That's not just a financial burden; it's a daily struggle to afford the basics you need. <a href="https://www.ntu.org/publications/detail/behind-trumps-proposed-4000-per-household-tax-increase">🔗</a></li>
 <li class='text-lg'><b class='text-red-900'>Rollback of Consumer Protections:</b> Trump’s administration has eviscerated consumer protection regulations, making it tougher for you to get fair loans when buying a home. Foreclosure risks are on the rise. It doesn’t stop there—Trump has slashed worker protections, stripping away your rights to fair pay and leaving you vulnerable to unfair arbitration practices. His policies prioritize his interests over your well-being, and you’re left exposed to predatory practices. <a href="https://www.epi.org/blog/president-trump-has-attacked-workers-safety-wages-and-rights-since-day-one/">🔗</a></li>
 </ul>`};
+
 
 
 
@@ -392,13 +390,13 @@ function actOnURLParameters() {
 }
 
 function copyToClipboard() {
-    const textToCopy = "http://www.whowillhelpme.com" + currentUrlParams;
-    navigator.clipboard.writeText(textToCopy).then(() => {
-	alert('Result URL copied to clipboard!');
-    }).catch(err => {
-	console.error('Failed to copy: ', err);
-    });
-}
+            const textToCopy = "http://www.whowillhelpme.com" + currentUrlParams;
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert('Result URL copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        }
 
 // Act on any URL parameters
 actOnURLParameters();
