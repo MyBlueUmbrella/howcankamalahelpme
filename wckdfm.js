@@ -299,8 +299,8 @@ function displayContent() {
     resultDiv.style.display = 'block';    
 
     document.getElementById('socials').style.display = 'block';
-    document.getElementById('fbshare').href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("http://www.howwillkamalahelpme.com" + currentUrlParams);
-    document.getElementById('xshare').href = "https://x.com/intent/post?url=" + encodeURIComponent("http://www.howwillkamalahelpme.com" + currentUrlParams);
+    document.getElementById('fbshare').href = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("http://www.whowillhelpme.com" + currentUrlParams);
+    document.getElementById('xshare').href = "https://x.com/intent/post?url=" + encodeURIComponent("http://www.whowillhelpme.com" + currentUrlParams);
 
     resultDiv.scrollIntoView({ behavior: 'smooth' });
 
@@ -344,7 +344,7 @@ function actOnURLParameters() {
 }
 
 function copyToClipboard() {
-            const textToCopy = "http://www.howwillkamalahelpme.com" + currentUrlParams;
+            const textToCopy = "http://www.whowillhelpme.com" + currentUrlParams;
             navigator.clipboard.writeText(textToCopy).then(() => {
                 alert('Result URL copied to clipboard!');
             }).catch(err => {
